@@ -1,0 +1,101 @@
+[3.541s] Invoking command in '/home/samee/ros2ws/build/r_gator_teleop': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
+[4.686s] [ 50%] [32mBuilding CXX object CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o[0m
+[13.053s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:38:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[13.053s]    12 |     void callback(const sensor_msgs::[01;31m[KJoy[m[K::ConstPtr &joy);
+[13.053s]       |                                      [01;31m[K^~~[m[K
+[13.053s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[13.053s]    12 |     void callback(const sensor_msgs::Joy::ConstPtr [01;31m[K&[m[Kjoy);
+[13.054s]       |                                                    [01;31m[K^[m[K
+[13.054s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[13.054s]    12 |     void callback[34m[K([m[Kconst sensor_msgs::Joy::ConstPtr[01;31m[K [m[K[32m[K&[m[Kjoy);
+[13.054s]       |                  [34m[K~[m[K                                [01;31m[K^[m[K[32m[K~[m[K
+[13.054s]       |                                                   [32m[K)[m[K
+[13.054s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[13.054s]    12 |     void callback(const sensor_msgs::Joy::ConstPtr [01;31m[K&[m[Kjoy);
+[13.054s]       |                                                    [01;31m[K^[m[K
+[13.054s]       |                                                     [32m[K;[m[K
+[13.054s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy[m[K’ does not name a type
+[13.055s]    12 |     void callback(const sensor_msgs::Joy::ConstPtr &[01;31m[Kjoy[m[K);
+[13.055s]       |                                                     [01;31m[K^~~[m[K
+[13.055s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:15:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[13.055s]    15 |     [01;31m[Kauto[m[K node = rclcpp::Node::make_shared
+[13.055s]       |     [01;31m[K^~~~[m[K
+[13.056s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[13.056s]    19 |     [01;31m[Kros[m[K::Publisher pub;
+[13.056s]       |     [01;31m[K^~~[m[K
+[13.063s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:[m[K In constructor ‘[01m[KTeleopTurtle::TeleopTurtle()[m[K’:
+[13.063s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+[13.063s]    27 |     [01;31m[Knh[m[K.param<int>("axis_linear", axis_linear, 1);
+[13.063s]       |     [01;31m[K^~[m[K
+[13.063s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:27:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[13.063s]    27 |     nh.param<[01;31m[Kint[m[K>("axis_linear", axis_linear, 1);
+[13.063s]       |              [01;31m[K^~~[m[K
+[13.063s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:28:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[13.063s]    28 |     nh.param<[01;31m[Kint[m[K>("axis_angular", axis_angular, 2);
+[13.063s]       |              [01;31m[K^~~[m[K
+[13.068s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[13.068s]    30 |     [01;31m[Kpub[m[K = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
+[13.069s]       |     [01;31m[K^~~[m[K
+[13.069s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:39:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[13.070s]    30 |     pub = nh.advertise<geometry_msgs::[01;31m[KTwist[m[K>("/cmd_vel", 1);
+[13.070s]       |                                       [01;31m[K^~~~~[m[K
+[13.070s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[13.070s]                  from [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:2[m[K:
+[13.070s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[13.070s]   134 | using [01;36m[KTwist[m[K =
+[13.070s]       |       [01;36m[K^~~~~[m[K
+[13.070s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:46:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.070s]    30 |     pub = nh.advertise<geometry_msgs::Twist>([01;35m[K"/cmd_vel"[m[K, 1);
+[13.070s]       |                                              [01;35m[K^~~~~~~~~~[m[K
+[13.075s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub[m[K’ was not declared in this scope; did you mean ‘[01m[Kfsub[m[K’?
+[13.075s]    31 |     [01;31m[Ksub[m[K = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::callback, this);
+[13.075s]       |     [01;31m[K^~~[m[K
+[13.075s]       |     [32m[Kfsub[m[K
+[13.076s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:37:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Joy[m[K’?
+[13.076s]    31 |     sub = nh.subscribe<sensor_msgs::[01;31m[KJoy[m[K>("joy", 10, &TeleopTurtle::callback, this);
+[13.076s]       |                                     [01;31m[K^~~[m[K
+[13.076s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7[m[K,
+[13.077s]                  from [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:3[m[K:
+[13.077s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:143:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Joy[m[K’ declared here
+[13.077s]   143 | using [01;36m[KJoy[m[K =
+[13.077s]       |       [01;36m[K^~~[m[K
+[13.077s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.077s]    31 |     sub = nh.subscribe<sensor_msgs::Joy>([01;35m[K"joy"[m[K, 10, &TeleopTurtle::callback, this);
+[13.077s]       |                                          [01;35m[K^~~~~[m[K
+[13.077s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:68:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.077s]    31 |     sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::[01;35m[Kcallback[m[K, this);
+[13.077s]       |                                                                    [01;35m[K^~~~~~~~[m[K
+[13.077s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:78:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.077s]    31 |     sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::callback, [01;35m[Kthis[m[K);
+[13.078s]       |                                                                              [01;35m[K^~~~[m[K
+[13.078s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:[m[K At global scope:
+[13.078s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:48:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[13.078s]    34 | void TeleopTurtle::callback(const sensor_msgs::[01;31m[KJoy[m[K::ConstPtr &joy)
+[13.078s]       |                                                [01;31m[K^~~[m[K
+[13.078s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[13.078s]    34 | void TeleopTurtle::callback(const sensor_msgs::Joy::ConstPtr [01;31m[K&[m[Kjoy)
+[13.078s]       |                                                              [01;31m[K^[m[K
+[13.078s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[13.078s]    34 | void TeleopTurtle::callback[34m[K([m[Kconst sensor_msgs::Joy::ConstPtr[01;31m[K [m[K[32m[K&[m[Kjoy)
+[13.078s]       |                            [34m[K~[m[K                                [01;31m[K^[m[K[32m[K~[m[K
+[13.078s]       |                                                             [32m[K)[m[K
+[13.078s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:63:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kjoy[m[K’
+[13.078s]    34 | void TeleopTurtle::callback(const sensor_msgs::Joy::ConstPtr &[01;31m[Kjoy[m[K)
+[13.078s]       |                                                               [01;31m[K^~~[m[K
+[13.079s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.079s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:53:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+[13.079s]    53 |     [01;31m[Krclcpp::spin()[m[K;
+[13.079s]       |     [01;31m[K~~~~~~~~~~~~^~[m[K
+[13.079s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.079s]                  from [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:1[m[K:
+[13.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[13.079s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[13.079s]       | [01;36m[K^~~~[m[K
+[13.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[13.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[13.079s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[13.079s]       | [01;36m[K^~~~[m[K
+[13.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[13.776s] gmake[2]: *** [CMakeFiles/r_gator_teleop.dir/build.make:76: CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o] Error 1
+[13.776s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/r_gator_teleop.dir/all] Error 2
+[13.777s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,77 @@
+[0.301s] Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo_tool': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12
+[0.313s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.550s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.736s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.799s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.801s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.926s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.078s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.530s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.790s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.950s] -- Configuring done (1.6s)
+[1.963s] -- Generating done (0.0s)
+[1.964s] -- Build files have been written to: /home/samee/ros2ws/build/r_gator_gazebo_tool
+[1.980s] [ 28%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[1.980s] [ 28%] [32mBuilding CXX object CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o[0m
+[1.980s] [ 42%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool.dir/src/tf_broadcaster.cpp.o[0m
+[1.980s] [ 57%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool.dir/src/gazebo_odom_publisher.cpp.o[0m
+[1.986s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.986s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.986s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/gazebo_odom_publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.986s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.986s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.986s] compilation terminated.
+[1.986s] compilation terminated.
+[1.986s] gmake[2]: *** [CMakeFiles/r_gator_gazebo_tool_node.dir/build.make:76: CMakeFiles/r_gator_gazebo_tool_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[1.986s] gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:76: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o] Error 1
+[1.986s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/r_gator_gazebo_tool_node.dir/all] Error 2
+[1.986s] gmake[1]: *** Waiting for unfinished jobs....
+[1.986s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+[2.194s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/gazebo_odom_publisher.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[2.194s]     6 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K
+[2.194s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.194s] compilation terminated.
+[2.197s] gmake[2]: *** [CMakeFiles/r_gator_gazebo_tool.dir/build.make:90: CMakeFiles/r_gator_gazebo_tool.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[2.197s] gmake[2]: *** Waiting for unfinished jobs....
+[3.955s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid TFBroadcaster::broadcast_transforms()[m[K’:
+[3.955s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.955s]    33 |       [01;31m[Ktf2[m[K::Transform map_to_path;
+[3.955s]       |       [01;31m[K^~~[m[K
+[3.960s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_to_path[m[K’ was not declared in this scope
+[3.960s]    34 |       [01;31m[Kmap_to_path[m[K.setIdentity();
+[3.960s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.960s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:39:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.960s]    39 |       map_to_path_tf.transform = [01;31m[Ktf2[m[K::toMsg(map_to_path);
+[3.960s]       |                                  [01;31m[K^~~[m[K
+[3.960s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.961s]    41 |       [01;31m[Ktf2[m[K::Transform map_to_odom;
+[3.961s]       |       [01;31m[K^~~[m[K
+[3.961s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:42:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.961s]    42 |       [01;31m[Ktf2[m[K::Transform map_to_odom_tf;
+[3.961s]       |       [01;31m[K^~~[m[K
+[3.965s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:43:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_to_odom[m[K’ was not declared in this scope
+[3.965s]    43 |       [01;31m[Kmap_to_odom[m[K.setOrigin(tf2::Vector3(tf_pose.position.x, tf_pose.position.y, tf_pose.position.z));
+[3.965s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.966s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:43:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.966s]    43 |       map_to_odom.setOrigin([01;31m[Ktf2[m[K::Vector3(tf_pose.position.x, tf_pose.position.y, tf_pose.position.z));
+[3.966s]       |                             [01;31m[K^~~[m[K
+[3.966s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:44:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.966s]    44 |       map_to_odom.setRotation([01;31m[Ktf2[m[K::Quaternion(0, 0, 0, 1));
+[3.966s]       |                               [01;31m[K^~~[m[K
+[3.971s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:46:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_to_odom_tf[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_to_path_tf[m[K’?
+[3.971s]    46 |       [01;31m[Kmap_to_odom_tf[m[K = map_to_path.inverseTimes(map_to_odom);
+[3.971s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.971s]       |       [32m[Kmap_to_path_tf[m[K
+[3.971s] [01m[K/home/samee/ros2ws/src/r_gator_gazebo_tool/src/tf_broadcaster.cpp:51:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.971s]    51 |       map_to_odom_msg.transform = [01;31m[Ktf2[m[K::toMsg(map_to_odom_tf);
+[3.971s]       |                                   [01;31m[K^~~[m[K
+[6.039s] gmake[2]: *** [CMakeFiles/r_gator_gazebo_tool.dir/build.make:76: CMakeFiles/r_gator_gazebo_tool.dir/src/tf_broadcaster.cpp.o] Error 1
+[6.039s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/r_gator_gazebo_tool.dir/all] Error 2
+[6.039s] gmake: *** [Makefile:146: all] Error 2
+[6.040s] Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo_tool' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12

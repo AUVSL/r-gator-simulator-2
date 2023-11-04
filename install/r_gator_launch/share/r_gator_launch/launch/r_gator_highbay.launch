@@ -1,0 +1,97 @@
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, LogInfo, SetEnvironmentVariable
+from launch.conditions import UnlessCondition
+from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
+import os
+
+def generate_launch_description():
+    # Define launch arguments
+    paused = DeclareLaunchArgument('paused', default_value="false")
+    use_sim_time = DeclareLaunchArgument('use_sim_time', default_value="true")
+    gui = DeclareLaunchArgument('gui', default_value="true")
+    headless = DeclareLaunchArgument('headless', default_value="false")
+    debug = DeclareLaunchArgument('debug', default_value="false")
+    world_name = DeclareLaunchArgument('world_name', default_value="highbay_track.world")
+    vehicle_x = DeclareLaunchArgument('vehicle_x', default_value="-10")
+    vehicle_y = DeclareLaunchArgument('vehicle_y', default_value="-21")
+    vehicle_yaw = DeclareLaunchArgument('vehicle_yaw', default_value="3.14")
+    configuration_basename = DeclareLaunchArgument('configuration_basename', default_value="r_gator_slam_2d_gazebo.lua")
+    remap_map_topic = DeclareLaunchArgument('remap_map_topic', default_value="false")
+    remap_map_topic_name = DeclareLaunchArgument('remap_map_topic_name', default_value="/cmap")
+
+    # Include Gazebo launch
+    gazebo_world_path = os.path.join(get_package_share_directory('r_gator_gazebo'), 'worlds', LaunchConfiguration('world_name'))
+    gazebo_launch = Node(
+        package='gazebo_ros',
+        executable='gazebo',
+        name='gazebo',
+        output='screen',
+        arguments=['--debug', '$(arg debug)', '--gui', '$(arg gui)', '--paused', '$(arg paused)', '--use_sim_time', '$(arg use_sim_time)', '-s', 'libgazebo_ros_factory.so', gazebo_world_path],
+        condition=UnlessCondition(LaunchConfiguration('headless'))
+    )
+
+    # Include r_gator vehicle launch
+    r_gator_launch = Node(
+        package='r_gator_gazebo',
+        executable='r_gator_vehicle',
+        name='r_gator_vehicle',
+        output='screen',
+        namespace='vehicle',
+        arguments=['--x', '$(arg vehicle_x)', '--y', '$(arg vehicle_y)', '--yaw', '$(arg vehicle_yaw)'],
+    )
+
+    # Include keyboard controller node
+    keyboard_controller = Node(
+        package='teleop_twist_keyboard',
+        executable='teleop_twist_keyboard',
+        name='teleop',
+        output='screen',
+    )
+
+    # Include ackermann msg to cmd node
+    cmd_to_ackermann = Node(
+        package='r_gator_gazebo_tool',
+        executable='cmd_vel_to_ackermann_drive.py',
+        name='cmd_to_ackermann',
+        output='screen',
+    )
+
+    # Include joystick msg to cmd node
+    r_gator_teleop = Node(
+        package='r_gator_teleop',
+        executable='r_gator_teleop_node',
+        name='r_gator_teleop_node',
+        output='screen',
+    )
+
+    # Include RViz
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', os.path.join(get_package_share_directory('r_gator_launch'), 'config_rviz', 'r_gator_velodyne.rviz')]
+    )
+
+    return LaunchDescription([
+        paused,
+        use_sim_time,
+        gui,
+        headless,
+        debug,
+        world_name,
+        vehicle_x,
+        vehicle_y,
+        vehicle_yaw,
+        configuration_basename,
+        remap_map_topic,
+        remap_map_topic_name,
+        gazebo_launch,
+        r_gator_launch,
+        keyboard_controller,
+        cmd_to_ackermann,
+        r_gator_teleop,
+        rviz,
+    ])

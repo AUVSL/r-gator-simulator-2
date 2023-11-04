@@ -1,0 +1,10 @@
+[6.001s] Invoking command in '/home/samee/ros2ws/src/r_gator_description': PYTHONPATH=/home/samee/ros2ws/build/r_gator_description/prefix_override:/home/samee/ros2ws/install/r_gator_description/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_description build --build-base /home/samee/ros2ws/build/r_gator_description/build install --record /home/samee/ros2ws/build/r_gator_description/install.log --install-scripts $base/src/r_gator_description --single-version-externally-managed
+[7.018s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.019s]   warnings.warn(
+[7.057s] running egg_info
+[7.061s] writing ../../build/r_gator_description/r_gator_description.egg-info/PKG-INFO
+[7.062s] writing dependency_links to ../../build/r_gator_description/r_gator_description.egg-info/dependency_links.txt
+[7.062s] writing entry points to ../../build/r_gator_description/r_gator_description.egg-info/entry_points.txt
+[7.063s] writing requirements to ../../build/r_gator_description/r_gator_description.egg-info/requires.txt
+[7.064s] writing top-level names to ../../build/r_gator_description/r_gator_description.egg-info/top_level.txt
+[7.070s] error: package directory 'r_gator_description' does not exist

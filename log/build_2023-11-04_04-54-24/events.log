@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000959] (r_gator_description) JobQueued: {'identifier': 'r_gator_description', 'dependencies': OrderedDict()}
+[0.001182] (r_gator_gazebo) JobQueued: {'identifier': 'r_gator_gazebo', 'dependencies': OrderedDict()}
+[0.001213] (r_gator_launch) JobQueued: {'identifier': 'r_gator_launch', 'dependencies': OrderedDict()}
+[0.001238] (r_gator_teleop) JobQueued: {'identifier': 'r_gator_teleop', 'dependencies': OrderedDict()}
+[0.001261] (rgator_model) JobQueued: {'identifier': 'rgator_model', 'dependencies': OrderedDict()}
+[0.001285] (r_gator_description) JobStarted: {'identifier': 'r_gator_description'}
+[0.054778] (r_gator_gazebo) JobStarted: {'identifier': 'r_gator_gazebo'}
+[0.099361] (-) TimerEvent: {}
+[0.108031] (r_gator_launch) JobStarted: {'identifier': 'r_gator_launch'}
+[0.161758] (r_gator_teleop) JobStarted: {'identifier': 'r_gator_teleop'}
+[0.195964] (rgator_model) JobStarted: {'identifier': 'rgator_model'}
+[0.199566] (-) TimerEvent: {}
+[0.300244] (-) TimerEvent: {}
+[0.400535] (-) TimerEvent: {}
+[0.500876] (-) TimerEvent: {}
+[0.601626] (-) TimerEvent: {}
+[0.701936] (-) TimerEvent: {}
+[0.802380] (-) TimerEvent: {}
+[0.902839] (-) TimerEvent: {}
+[1.003205] (-) TimerEvent: {}
+[1.103571] (-) TimerEvent: {}
+[1.203943] (-) TimerEvent: {}
+[1.304380] (-) TimerEvent: {}
+[1.367124] (r_gator_teleop) JobProgress: {'identifier': 'r_gator_teleop', 'progress': 'cmake'}
+[1.367899] (r_gator_teleop) JobProgress: {'identifier': 'r_gator_teleop', 'progress': 'build'}
+[1.369258] (r_gator_teleop) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/samee/ros2ws/build/r_gator_teleop', '--', '-j12', '-l12'], 'cwd': '/home/samee/ros2ws/build/r_gator_teleop', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/samee/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'samee'), ('PWD', '/home/samee/ros2ws/build/r_gator_teleop'), ('COLCON', '1')]), 'shell': False}
+[1.404596] (-) TimerEvent: {}
+[1.407055] (r_gator_teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o\x1b[0m\n'}
+[1.504710] (-) TimerEvent: {}
+[1.605065] (-) TimerEvent: {}
+[1.705436] (-) TimerEvent: {}
+[1.805859] (-) TimerEvent: {}
+[1.906384] (-) TimerEvent: {}
+[2.006873] (-) TimerEvent: {}
+[2.107414] (-) TimerEvent: {}
+[2.208032] (-) TimerEvent: {}
+[2.308436] (-) TimerEvent: {}
+[2.367144] (r_gator_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/r_gator_description', 'build', '--build-base', '/home/samee/ros2ws/build/r_gator_description/build', 'install', '--record', '/home/samee/ros2ws/build/r_gator_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/samee/ros2ws/src/r_gator_description', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XAUTHORITY': '/home/samee/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'samee', 'PWD': '/home/samee/ros2ws/build/r_gator_description', 'COLCON': '1', 'PYTHONPATH': '/home/samee/ros2ws/build/r_gator_description/prefix_override:/home/samee/ros2ws/install/r_gator_description/lib/python3.10/site-packages:'}, 'shell': False}
+[2.372600] (r_gator_gazebo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/r_gator_gazebo', 'build', '--build-base', '/home/samee/ros2ws/build/r_gator_gazebo/build', 'install', '--record', '/home/samee/ros2ws/build/r_gator_gazebo/install.log', '--single-version-externally-managed'], 'cwd': '/home/samee/ros2ws/src/r_gator_gazebo', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XAUTHORITY': '/home/samee/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'samee', 'PWD': '/home/samee/ros2ws/build/r_gator_gazebo', 'COLCON': '1', 'PYTHONPATH': '/home/samee/ros2ws/build/r_gator_gazebo/prefix_override:/home/samee/ros2ws/install/r_gator_gazebo/lib/python3.10/site-packages:'}, 'shell': False}
+[2.381897] (r_gator_launch) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/r_gator_launch', 'build', '--build-base', '/home/samee/ros2ws/build/r_gator_launch/build', 'install', '--record', '/home/samee/ros2ws/build/r_gator_launch/install.log', '--single-version-externally-managed'], 'cwd': '/home/samee/ros2ws/src/r_gator_launch', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XAUTHORITY': '/home/samee/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'samee', 'PWD': '/home/samee/ros2ws/build/r_gator_launch', 'COLCON': '1', 'PYTHONPATH': '/home/samee/ros2ws/build/r_gator_launch/prefix_override:/home/samee/ros2ws/install/r_gator_launch/lib/python3.10/site-packages:'}, 'shell': False}
+[2.397454] (rgator_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rgator_model', 'build', '--build-base', '/home/samee/ros2ws/build/rgator_model/build', 'install', '--record', '/home/samee/ros2ws/build/rgator_model/install.log', '--single-version-externally-managed'], 'cwd': '/home/samee/ros2ws/src/rgator_model', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XAUTHORITY': '/home/samee/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'samee', 'PWD': '/home/samee/ros2ws/build/rgator_model', 'COLCON': '1', 'PYTHONPATH': '/home/samee/ros2ws/build/rgator_model/prefix_override:/home/samee/ros2ws/install/rgator_model/lib/python3.10/site-packages:'}, 'shell': False}
+[2.408569] (-) TimerEvent: {}
+[2.509180] (-) TimerEvent: {}
+[2.609712] (-) TimerEvent: {}
+[2.710193] (-) TimerEvent: {}
+[2.739901] (r_gator_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.741520] (r_gator_description) StdoutLine: {'line': b'writing ../../build/r_gator_description/r_gator_description.egg-info/PKG-INFO\n'}
+[2.741968] (r_gator_description) StdoutLine: {'line': b'writing dependency_links to ../../build/r_gator_description/r_gator_description.egg-info/dependency_links.txt\n'}
+[2.742298] (r_gator_description) StdoutLine: {'line': b'writing entry points to ../../build/r_gator_description/r_gator_description.egg-info/entry_points.txt\n'}
+[2.742717] (r_gator_description) StdoutLine: {'line': b'writing requirements to ../../build/r_gator_description/r_gator_description.egg-info/requires.txt\n'}
+[2.742955] (r_gator_description) StdoutLine: {'line': b'writing top-level names to ../../build/r_gator_description/r_gator_description.egg-info/top_level.txt\n'}
+[2.743153] (r_gator_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[2.744085] (r_gator_gazebo) StdoutLine: {'line': b'writing ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/PKG-INFO\n'}
+[2.744412] (r_gator_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/dependency_links.txt\n'}
+[2.744722] (r_gator_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/entry_points.txt\n'}
+[2.745080] (r_gator_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/requires.txt\n'}
+[2.745321] (r_gator_description) StderrLine: {'line': b"error: package directory 'r_gator_description' does not exist\n"}
+[2.745505] (r_gator_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/top_level.txt\n'}
+[2.747585] (r_gator_gazebo) StderrLine: {'line': b"error: package directory 'r_gator_gazebo' does not exist\n"}
+[2.758534] (r_gator_launch) StdoutLine: {'line': b'running egg_info\n'}
+[2.759476] (r_gator_launch) StdoutLine: {'line': b'writing ../../build/r_gator_launch/r_gator_launch.egg-info/PKG-INFO\n'}
+[2.759794] (r_gator_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/r_gator_launch/r_gator_launch.egg-info/dependency_links.txt\n'}
+[2.760037] (r_gator_launch) StdoutLine: {'line': b'writing entry points to ../../build/r_gator_launch/r_gator_launch.egg-info/entry_points.txt\n'}
+[2.760274] (r_gator_launch) StdoutLine: {'line': b'writing requirements to ../../build/r_gator_launch/r_gator_launch.egg-info/requires.txt\n'}
+[2.760489] (r_gator_launch) StdoutLine: {'line': b'writing top-level names to ../../build/r_gator_launch/r_gator_launch.egg-info/top_level.txt\n'}
+[2.762416] (r_gator_launch) StderrLine: {'line': b"error: package directory 'r_gator_launch' does not exist\n"}
+[2.774716] (rgator_model) StdoutLine: {'line': b'running egg_info\n'}
+[2.775880] (rgator_model) StdoutLine: {'line': b'writing ../../build/rgator_model/rgator_model.egg-info/PKG-INFO\n'}
+[2.776296] (rgator_model) StdoutLine: {'line': b'writing dependency_links to ../../build/rgator_model/rgator_model.egg-info/dependency_links.txt\n'}
+[2.776587] (rgator_model) StdoutLine: {'line': b'writing entry points to ../../build/rgator_model/rgator_model.egg-info/entry_points.txt\n'}
+[2.776825] (rgator_model) StdoutLine: {'line': b'writing requirements to ../../build/rgator_model/rgator_model.egg-info/requires.txt\n'}
+[2.776967] (rgator_model) StdoutLine: {'line': b'writing top-level names to ../../build/rgator_model/rgator_model.egg-info/top_level.txt\n'}
+[2.779924] (rgator_model) StderrLine: {'line': b"error: package directory 'rgator_model' does not exist\n"}
+[2.793400] (r_gator_description) CommandEnded: {'returncode': 1}
+[2.793983] (r_gator_description) JobEnded: {'identifier': 'r_gator_description', 'rc': 1}
+[2.795426] (r_gator_gazebo) JobEnded: {'identifier': 'r_gator_gazebo', 'rc': 'SIGINT'}
+[2.808991] (r_gator_launch) JobEnded: {'identifier': 'r_gator_launch', 'rc': 'SIGINT'}
+[2.810258] (-) TimerEvent: {}
+[2.833118] (rgator_model) JobEnded: {'identifier': 'rgator_model', 'rc': 'SIGINT'}
+[2.910411] (-) TimerEvent: {}
+[3.010736] (-) TimerEvent: {}
+[3.111072] (-) TimerEvent: {}
+[3.211461] (-) TimerEvent: {}
+[3.311874] (-) TimerEvent: {}
+[3.412238] (-) TimerEvent: {}
+[3.512708] (-) TimerEvent: {}
+[3.613117] (-) TimerEvent: {}
+[3.713500] (-) TimerEvent: {}
+[3.813813] (-) TimerEvent: {}
+[3.914136] (-) TimerEvent: {}
+[4.014489] (-) TimerEvent: {}
+[4.114824] (-) TimerEvent: {}
+[4.215208] (-) TimerEvent: {}
+[4.315518] (-) TimerEvent: {}
+[4.415860] (-) TimerEvent: {}
+[4.516576] (-) TimerEvent: {}
+[4.617104] (-) TimerEvent: {}
+[4.717550] (-) TimerEvent: {}
+[4.818207] (-) TimerEvent: {}
+[4.918594] (-) TimerEvent: {}
+[5.019113] (-) TimerEvent: {}
+[5.119620] (-) TimerEvent: {}
+[5.220229] (-) TimerEvent: {}
+[5.320611] (-) TimerEvent: {}
+[5.420972] (-) TimerEvent: {}
+[5.444162] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.444520] (r_gator_teleop) StderrLine: {'line': b'   12 |     void callback(const sensor_msgs::\x1b[01;31m\x1b[KJoy\x1b[m\x1b[K::ConstPtr &joy);\n'}
+[5.444633] (r_gator_teleop) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.444751] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.444849] (r_gator_teleop) StderrLine: {'line': b'   12 |     void callback(const sensor_msgs::Joy::ConstPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Kjoy);\n'}
+[5.444935] (r_gator_teleop) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.445019] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.445104] (r_gator_teleop) StderrLine: {'line': b'   12 |     void callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::Joy::ConstPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[Kjoy);\n'}
+[5.445188] (r_gator_teleop) StderrLine: {'line': b'      |                  \x1b[34m\x1b[K~\x1b[m\x1b[K                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[5.445271] (r_gator_teleop) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.445353] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.445438] (r_gator_teleop) StderrLine: {'line': b'   12 |     void callback(const sensor_msgs::Joy::ConstPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Kjoy);\n'}
+[5.445521] (r_gator_teleop) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.445604] (r_gator_teleop) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.446004] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:12:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.446152] (r_gator_teleop) StderrLine: {'line': b'   12 |     void callback(const sensor_msgs::Joy::ConstPtr &\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K);\n'}
+[5.446246] (r_gator_teleop) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.446334] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446420] (r_gator_teleop) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K node = rclcpp::Node::make_shared\n'}
+[5.446504] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.447904] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:19:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.448139] (r_gator_teleop) StderrLine: {'line': b'   19 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Publisher pub;\n'}
+[5.448238] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.455334] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTeleopTurtle::TeleopTurtle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.455586] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knh\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.455690] (r_gator_teleop) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[Knh\x1b[m\x1b[K.param<int>("axis_linear", axis_linear, 1);\n'}
+[5.455780] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.455896] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:27:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455983] (r_gator_teleop) StderrLine: {'line': b'   27 |     nh.param<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K>("axis_linear", axis_linear, 1);\n'}
+[5.456065] (r_gator_teleop) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.456145] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:28:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.456226] (r_gator_teleop) StderrLine: {'line': b'   28 |     nh.param<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K>("axis_angular", axis_angular, 2);\n'}
+[5.456305] (r_gator_teleop) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.462319] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.462528] (r_gator_teleop) StderrLine: {'line': b'   30 |     \x1b[01;31m\x1b[Kpub\x1b[m\x1b[K = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1);\n'}
+[5.462640] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.463227] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.463367] (r_gator_teleop) StderrLine: {'line': b'   30 |     pub = nh.advertise<geometry_msgs::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("/cmd_vel", 1);\n'}
+[5.463463] (r_gator_teleop) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.463564] (r_gator_teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[5.463659] (r_gator_teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:2\x1b[m\x1b[K:\n'}
+[5.463745] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.463838] (r_gator_teleop) StderrLine: {'line': b'  134 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[5.463921] (r_gator_teleop) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.464002] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:30:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.464088] (r_gator_teleop) StderrLine: {'line': b'   30 |     pub = nh.advertise<geometry_msgs::Twist>(\x1b[01;35m\x1b[K"/cmd_vel"\x1b[m\x1b[K, 1);\n'}
+[5.464169] (r_gator_teleop) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.470339] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfsub\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.470671] (r_gator_teleop) StderrLine: {'line': b'   31 |     \x1b[01;31m\x1b[Ksub\x1b[m\x1b[K = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::callback, this);\n'}
+[5.470772] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.470860] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfsub\x1b[m\x1b[K\n'}
+[5.471571] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Joy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.472021] (r_gator_teleop) StderrLine: {'line': b'   31 |     sub = nh.subscribe<sensor_msgs::\x1b[01;31m\x1b[KJoy\x1b[m\x1b[K>("joy", 10, &TeleopTurtle::callback, this);\n'}
+[5.472197] (r_gator_teleop) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.472321] (r_gator_teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7\x1b[m\x1b[K,\n'}
+[5.472426] (r_gator_teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:3\x1b[m\x1b[K:\n'}
+[5.472509] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:143:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Joy\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.472592] (r_gator_teleop) StderrLine: {'line': b'  143 | using \x1b[01;36m\x1b[KJoy\x1b[m\x1b[K =\n'}
+[5.472688] (r_gator_teleop) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.472789] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.472891] (r_gator_teleop) StderrLine: {'line': b'   31 |     sub = nh.subscribe<sensor_msgs::Joy>(\x1b[01;35m\x1b[K"joy"\x1b[m\x1b[K, 10, &TeleopTurtle::callback, this);\n'}
+[5.472977] (r_gator_teleop) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.473063] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.473152] (r_gator_teleop) StderrLine: {'line': b'   31 |     sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::\x1b[01;35m\x1b[Kcallback\x1b[m\x1b[K, this);\n'}
+[5.473237] (r_gator_teleop) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.473321] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:31:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.473574] (r_gator_teleop) StderrLine: {'line': b'   31 |     sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::callback, \x1b[01;35m\x1b[Kthis\x1b[m\x1b[K);\n'}
+[5.473701] (r_gator_teleop) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.473801] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.473887] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJoy\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.473972] (r_gator_teleop) StderrLine: {'line': b'   34 | void TeleopTurtle::callback(const sensor_msgs::\x1b[01;31m\x1b[KJoy\x1b[m\x1b[K::ConstPtr &joy)\n'}
+[5.474055] (r_gator_teleop) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.474137] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.474261] (r_gator_teleop) StderrLine: {'line': b'   34 | void TeleopTurtle::callback(const sensor_msgs::Joy::ConstPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Kjoy)\n'}
+[5.474355] (r_gator_teleop) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.474438] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.474524] (r_gator_teleop) StderrLine: {'line': b'   34 | void TeleopTurtle::callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::Joy::ConstPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[Kjoy)\n'}
+[5.474610] (r_gator_teleop) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[5.474692] (r_gator_teleop) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.474776] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:34:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kjoy\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.474863] (r_gator_teleop) StderrLine: {'line': b'   34 | void TeleopTurtle::callback(const sensor_msgs::Joy::ConstPtr &\x1b[01;31m\x1b[Kjoy\x1b[m\x1b[K)\n'}
+[5.474949] (r_gator_teleop) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.475034] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.475122] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.475203] (r_gator_teleop) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[Krclcpp::spin()\x1b[m\x1b[K;\n'}
+[5.475284] (r_gator_teleop) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.475364] (r_gator_teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.475444] (r_gator_teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:1\x1b[m\x1b[K:\n'}
+[5.475524] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.475618] (r_gator_teleop) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[5.475698] (r_gator_teleop) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.475777] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[5.475857] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.475938] (r_gator_teleop) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[5.476019] (r_gator_teleop) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.476110] (r_gator_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[5.521083] (-) TimerEvent: {}
+[5.621447] (-) TimerEvent: {}
+[5.721896] (-) TimerEvent: {}
+[5.822338] (-) TimerEvent: {}
+[5.922831] (-) TimerEvent: {}
+[6.023240] (-) TimerEvent: {}
+[6.123808] (-) TimerEvent: {}
+[6.224118] (-) TimerEvent: {}
+[6.324706] (-) TimerEvent: {}
+[6.425541] (-) TimerEvent: {}
+[6.524419] (r_gator_teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/r_gator_teleop.dir/build.make:76: CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o] Error 1\n'}
+[6.525242] (r_gator_teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/r_gator_teleop.dir/all] Error 2\n'}
+[6.525653] (-) TimerEvent: {}
+[6.526145] (r_gator_teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.530224] (r_gator_teleop) JobEnded: {'identifier': 'r_gator_teleop', 'rc': 'SIGINT'}
+[6.534549] (-) EventReactorShutdown: {}

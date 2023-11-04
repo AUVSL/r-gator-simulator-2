@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: r-gator-description
+Version: 0.0.0
+Summary: My awesome package.
+Home-page: UNKNOWN
+Author: ROS 2 Developer
+Author-email: ros2@ros.com
+Maintainer: ROS 2 Developer
+Maintainer-email: ros2@ros.com
+License: TODO
+Keywords: foo,bar
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: TODO
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+License-File: LICENSE
+
+UNKNOWN
+

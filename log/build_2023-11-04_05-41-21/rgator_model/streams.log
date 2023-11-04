@@ -1,0 +1,40 @@
+[0.328s] Invoking command in '/home/samee/ros2ws/build/rgator_model': /usr/local/bin/cmake /home/samee/ros2ws/src/rgator_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/rgator_model
+[0.332s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.332s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.333s]   CMake.
+[0.333s] 
+[0.333s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.333s]   CMake that the project does not need compatibility with older versions.
+[0.334s] 
+[0.334s] [0m
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[0.835s] -- The CXX compiler identification is GNU 11.4.0
+[0.902s] -- Detecting C compiler ABI info
+[1.149s] -- Detecting C compiler ABI info - done
+[1.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.210s] -- Detecting C compile features
+[1.213s] -- Detecting C compile features - done
+[1.251s] -- Detecting CXX compiler ABI info
+[1.524s] -- Detecting CXX compiler ABI info - done
+[1.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.611s] -- Detecting CXX compile features
+[1.614s] -- Detecting CXX compile features - done
+[1.665s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.666s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.666s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.666s]   CMake did not find one.
+[1.666s] 
+[1.667s]   Could not find a package configuration file provided by "catkin" with any
+[1.667s]   of the following names:
+[1.667s] 
+[1.667s]     catkinConfig.cmake
+[1.668s]     catkin-config.cmake
+[1.668s] 
+[1.668s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.669s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.669s]   provides a separate development package or SDK, be sure it has been
+[1.669s]   installed.
+[1.669s] 
+[1.670s] [0m
+[1.670s] -- Configuring incomplete, errors occurred!
+[1.677s] Invoked command in '/home/samee/ros2ws/build/rgator_model' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src/rgator_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/rgator_model

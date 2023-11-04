@@ -1,0 +1,10 @@
+[5.658s] Invoking command in '/home/samee/ros2ws/src/r_gator_launch': PYTHONPATH=/home/samee/ros2ws/build/r_gator_launch/prefix_override:/home/samee/ros2ws/install/r_gator_launch/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_launch build --build-base /home/samee/ros2ws/build/r_gator_launch/build install --record /home/samee/ros2ws/build/r_gator_launch/install.log --install-scripts $base/src/r_gator_launch --single-version-externally-managed
+[6.668s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.669s]   warnings.warn(
+[6.707s] running egg_info
+[6.710s] writing ../../build/r_gator_launch/r_gator_launch.egg-info/PKG-INFO
+[6.711s] writing dependency_links to ../../build/r_gator_launch/r_gator_launch.egg-info/dependency_links.txt
+[6.712s] writing entry points to ../../build/r_gator_launch/r_gator_launch.egg-info/entry_points.txt
+[6.713s] writing requirements to ../../build/r_gator_launch/r_gator_launch.egg-info/requires.txt
+[6.714s] writing top-level names to ../../build/r_gator_launch/r_gator_launch.egg-info/top_level.txt
+[6.719s] error: package directory 'r_gator_launch' does not exist

@@ -1,0 +1,9 @@
+[2.107s] Invoking command in '/home/samee/ros2ws/src/r_gator_description': PYTHONPATH=/home/samee/ros2ws/build/r_gator_description/prefix_override:/home/samee/ros2ws/install/r_gator_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_description build --build-base /home/samee/ros2ws/build/r_gator_description/build install --record /home/samee/ros2ws/build/r_gator_description/install.log --single-version-externally-managed
+[2.392s] running egg_info
+[2.393s] writing ../../build/r_gator_description/r_gator_description.egg-info/PKG-INFO
+[2.393s] writing dependency_links to ../../build/r_gator_description/r_gator_description.egg-info/dependency_links.txt
+[2.393s] writing entry points to ../../build/r_gator_description/r_gator_description.egg-info/entry_points.txt
+[2.393s] writing requirements to ../../build/r_gator_description/r_gator_description.egg-info/requires.txt
+[2.393s] writing top-level names to ../../build/r_gator_description/r_gator_description.egg-info/top_level.txt
+[2.395s] error: package directory 'r_gator_description' does not exist
+[2.419s] Invoked command in '/home/samee/ros2ws/src/r_gator_description' returned '1': PYTHONPATH=/home/samee/ros2ws/build/r_gator_description/prefix_override:/home/samee/ros2ws/install/r_gator_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_description build --build-base /home/samee/ros2ws/build/r_gator_description/build install --record /home/samee/ros2ws/build/r_gator_description/install.log --single-version-externally-managed

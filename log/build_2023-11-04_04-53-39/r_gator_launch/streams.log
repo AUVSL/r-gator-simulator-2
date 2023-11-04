@@ -1,0 +1,9 @@
+[6.561s] Invoking command in '/home/samee/ros2ws/src/r_gator_launch': PYTHONPATH=/home/samee/ros2ws/build/r_gator_launch/prefix_override:/home/samee/ros2ws/install/r_gator_launch/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_launch build --build-base /home/samee/ros2ws/build/r_gator_launch/build install --record /home/samee/ros2ws/build/r_gator_launch/install.log --single-version-externally-managed
+[7.608s] running egg_info
+[7.611s] writing ../../build/r_gator_launch/r_gator_launch.egg-info/PKG-INFO
+[7.612s] writing dependency_links to ../../build/r_gator_launch/r_gator_launch.egg-info/dependency_links.txt
+[7.613s] writing entry points to ../../build/r_gator_launch/r_gator_launch.egg-info/entry_points.txt
+[7.614s] writing requirements to ../../build/r_gator_launch/r_gator_launch.egg-info/requires.txt
+[7.615s] writing top-level names to ../../build/r_gator_launch/r_gator_launch.egg-info/top_level.txt
+[7.620s] error: package directory 'src/r_gator_launch' does not exist
+[7.715s] Invoked command in '/home/samee/ros2ws/src/r_gator_launch' returned '1': PYTHONPATH=/home/samee/ros2ws/build/r_gator_launch/prefix_override:/home/samee/ros2ws/install/r_gator_launch/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_launch build --build-base /home/samee/ros2ws/build/r_gator_launch/build install --record /home/samee/ros2ws/build/r_gator_launch/install.log --single-version-externally-managed

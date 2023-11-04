@@ -1,0 +1,4 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool.dir/src/tf_broadcaster.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool.dir/src/gazebo_odom_publisher.cpp.o[0m

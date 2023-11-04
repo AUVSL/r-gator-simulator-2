@@ -1,0 +1,24 @@
+[0.441s] Invoking command in '/home/samee/ros2ws/build/r_gator_description': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_description -- -j12 -l12
+[0.452s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.775s] -- Configuring done (0.3s)
+[0.779s] -- Generating done (0.0s)
+[0.780s] -- Build files have been written to: /home/samee/ros2ws/build/r_gator_description
+[0.956s] Invoked command in '/home/samee/ros2ws/build/r_gator_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_description -- -j12 -l12
+[1.065s] Invoking command in '/home/samee/ros2ws/build/r_gator_description': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r_gator_description
+[1.067s] -- Install configuration: ""
+[1.067s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/ament_index/resource_index/package_run_dependencies/r_gator_description
+[1.067s] -- Installing: /home/samee/ros2ws/install/r_gator_description/share/ament_index/resource_index/parent_prefix_path/r_gator_description
+[1.067s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/environment/ament_prefix_path.sh
+[1.068s] -- Installing: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/environment/path.sh
+[1.068s] -- Installing: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/environment/path.dsv
+[1.069s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/local_setup.bash
+[1.069s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/local_setup.sh
+[1.069s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/local_setup.zsh
+[1.069s] -- Installing: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/local_setup.dsv
+[1.070s] -- Installing: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/package.dsv
+[1.070s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/ament_index/resource_index/packages/r_gator_description
+[1.070s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/cmake/r_gator_descriptionConfig.cmake
+[1.070s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/cmake/r_gator_descriptionConfig-version.cmake
+[1.070s] -- Up-to-date: /home/samee/ros2ws/install/r_gator_description/share/r_gator_description/package.xml
+[1.072s] Invoked command in '/home/samee/ros2ws/build/r_gator_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r_gator_description

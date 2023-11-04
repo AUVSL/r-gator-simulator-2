@@ -1,0 +1,10 @@
+[0.975s] Invoking command in '/home/samee/ros2ws/build/r_gator_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
+[0.987s] [ 50%] [32mBuilding CXX object CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o[0m
+[1.146s] [01m[K/home/samee/ros2ws/src/r_gator_teleop/src/r_gator_teleop.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[1.146s]     2 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[1.146s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.146s] compilation terminated.
+[1.158s] gmake[2]: *** [CMakeFiles/r_gator_teleop.dir/build.make:76: CMakeFiles/r_gator_teleop.dir/src/r_gator_teleop.cpp.o] Error 1
+[1.158s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/r_gator_teleop.dir/all] Error 2
+[1.158s] gmake: *** [Makefile:146: all] Error 2
+[1.271s] Invoked command in '/home/samee/ros2ws/build/r_gator_teleop' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12

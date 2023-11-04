@@ -1,0 +1,11 @@
+source;share/rgator_model/hook/cmake_prefix_path.ps1
+source;share/rgator_model/hook/cmake_prefix_path.dsv
+source;share/rgator_model/hook/cmake_prefix_path.sh
+source;share/rgator_model/hook/pythonpath.ps1
+source;share/rgator_model/hook/pythonpath.dsv
+source;share/rgator_model/hook/pythonpath.sh
+source;share/rgator_model/local_setup.bash
+source;share/rgator_model/local_setup.dsv
+source;share/rgator_model/local_setup.ps1
+source;share/rgator_model/local_setup.sh
+source;share/rgator_model/local_setup.zsh

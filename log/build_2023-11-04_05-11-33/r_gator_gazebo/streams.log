@@ -1,0 +1,10 @@
+[6.822s] Invoking command in '/home/samee/ros2ws/src/r_gator_gazebo': PYTHONPATH=/home/samee/ros2ws/build/r_gator_gazebo/prefix_override:/home/samee/ros2ws/install/r_gator_gazebo/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/r_gator_gazebo build --build-base /home/samee/ros2ws/build/r_gator_gazebo/build install --record /home/samee/ros2ws/build/r_gator_gazebo/install.log --install-scripts /home/samee/ros2ws/src/r_gator_gazebo --single-version-externally-managed
+[8.194s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.194s]   warnings.warn(
+[8.237s] running egg_info
+[8.240s] writing ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/PKG-INFO
+[8.241s] writing dependency_links to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/dependency_links.txt
+[8.242s] writing entry points to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/entry_points.txt
+[8.242s] writing requirements to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/requires.txt
+[8.243s] writing top-level names to ../../build/r_gator_gazebo/r_gator_gazebo.egg-info/top_level.txt
+[8.251s] error: package directory 'r_gator_gazebo' does not exist

@@ -1,0 +1,36 @@
+[0.064s] Invoking command in '/home/samee/ros2ws/build/rgator_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/rgator_model -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/rgator_model
+[0.064s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.065s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.065s]   CMake.
+[0.065s] 
+[0.065s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.065s]   CMake that the project does not need compatibility with older versions.
+[0.065s] 
+[0.065s] [0m
+[0.074s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.592s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.593s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.593s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.593s]   set the policy and suppress this warning.
+[0.593s] 
+[0.593s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.593s]   Since the policy is not set the OLD behavior will be used.
+[0.593s] Call Stack (most recent call first):
+[0.593s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.593s]   CMakeLists.txt:9 (ament_package)
+[0.593s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.594s] [0m
+[0.594s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.594s]   if given arguments:
+[0.594s] 
+[0.594s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[0.594s] 
+[0.594s]   Unknown arguments specified
+[0.594s] Call Stack (most recent call first):
+[0.594s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.594s]   CMakeLists.txt:9 (ament_package)
+[0.594s] 
+[0.594s] [0m
+[0.595s] -- Configuring incomplete, errors occurred!
+[0.596s] Invoked command in '/home/samee/ros2ws/build/rgator_model' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/rgator_model -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/rgator_model

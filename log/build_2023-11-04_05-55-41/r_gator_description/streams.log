@@ -1,0 +1,48 @@
+[0.160s] Invoking command in '/home/samee/ros2ws/build/r_gator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_description
+[0.164s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.164s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.165s]   CMake.
+[0.165s] 
+[0.165s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.166s]   CMake that the project does not need compatibility with older versions.
+[0.166s] 
+[0.166s] [0m
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.416s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.419s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.839s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.979s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.979s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.979s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.979s]   set the policy and suppress this warning.
+[0.979s] 
+[0.979s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.979s]   Since the policy is not set the OLD behavior will be used.
+[0.979s] Call Stack (most recent call first):
+[0.980s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.980s]   CMakeLists.txt:17 (ament_package)
+[0.980s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.980s] [0m
+[0.980s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.980s]   if given arguments:
+[0.980s] 
+[0.980s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[0.980s] 
+[0.980s]   Unknown arguments specified
+[0.980s] Call Stack (most recent call first):
+[0.981s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.981s]   CMakeLists.txt:17 (ament_package)
+[0.981s] 
+[0.981s] [0m
+[0.981s] -- Configuring incomplete, errors occurred!
+[0.984s] Invoked command in '/home/samee/ros2ws/build/r_gator_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_description

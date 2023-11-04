@@ -1,0 +1,2 @@
+Invoking command in '/home/samee/ros2ws/build/r_gator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_description
+Invoked command in '/home/samee/ros2ws/build/r_gator_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_description

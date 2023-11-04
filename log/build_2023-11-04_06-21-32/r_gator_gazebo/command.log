@@ -1,0 +1,6 @@
+Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_gazebo -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_gazebo
+Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_gazebo -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_gazebo
+Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo -- -j12 -l12
+Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo -- -j12 -l12
+Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r_gator_gazebo
+Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r_gator_gazebo

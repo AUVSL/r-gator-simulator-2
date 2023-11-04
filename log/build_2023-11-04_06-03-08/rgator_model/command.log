@@ -1,0 +1,2 @@
+Invoking command in '/home/samee/ros2ws/build/rgator_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/rgator_model -- -j12 -l12
+Invoked command in '/home/samee/ros2ws/build/rgator_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/rgator_model -- -j12 -l12

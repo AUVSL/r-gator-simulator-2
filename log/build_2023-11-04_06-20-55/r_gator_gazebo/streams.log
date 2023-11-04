@@ -1,0 +1,20 @@
+[0.295s] Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_gazebo -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_gazebo
+[0.313s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.314s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.314s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.314s]   CMake did not find one.
+[0.314s] 
+[0.315s]   Could not find a package configuration file provided by "catkin" with any
+[0.315s]   of the following names:
+[0.315s] 
+[0.315s]     catkinConfig.cmake
+[0.315s]     catkin-config.cmake
+[0.316s] 
+[0.316s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.316s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.316s]   provides a separate development package or SDK, be sure it has been
+[0.316s]   installed.
+[0.316s] 
+[0.316s] [0m
+[0.317s] -- Configuring incomplete, errors occurred!
+[0.317s] Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_gazebo -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_gazebo

@@ -1,0 +1,53 @@
+[0.085s] Invoking command in '/home/samee/ros2ws/build/r_gator_teleop': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
+[0.098s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.412s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.416s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.428s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found joy: 3.1.0 (/opt/ros/humble/share/joy/cmake)
+[0.775s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.776s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.466s] Error parsing '/home/samee/ros2ws/src/r_gator_teleop/package.xml':
+[1.534s] Traceback (most recent call last):
+[1.534s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.546s]     root = dom.parseString(data)
+[1.546s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.547s]     return expatbuilder.parseString(string)
+[1.547s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.547s]     return builder.parseString(string)
+[1.548s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.548s]     parser.Parse(string, True)
+[1.548s] xml.parsers.expat.ExpatError: mismatched tag: line 64, column 2
+[1.548s] 
+[1.548s] During handling of the above exception, another exception occurred:
+[1.548s] 
+[1.548s] Traceback (most recent call last):
+[1.548s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.549s]     main()
+[1.549s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.549s]     raise e
+[1.549s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.549s]     package = parse_package_string(
+[1.549s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.549s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.549s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/samee/ros2ws/src/r_gator_teleop/package.xml':
+[1.549s] The manifest contains invalid XML:
+[1.549s] mismatched tag: line 64, column 2
+[1.581s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.582s]   execute_process(/usr/bin/python3.10
+[1.582s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.582s]   /home/samee/ros2ws/src/r_gator_teleop/package.xml
+[1.582s]   /home/samee/ros2ws/build/r_gator_teleop/ament_cmake_core/package.cmake)
+[1.582s]   returned error code 1
+[1.582s] Call Stack (most recent call first):
+[1.582s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.582s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.582s]   CMakeLists.txt:28 (ament_package)
+[1.582s] 
+[1.583s] [0m
+[1.583s] -- Configuring incomplete, errors occurred!
+[1.600s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.602s] Invoked command in '/home/samee/ros2ws/build/r_gator_teleop' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
