@@ -1,0 +1,4 @@
+source;share/r-gator-model/local_setup.bash
+source;share/r-gator-model/local_setup.dsv
+source;share/r-gator-model/local_setup.sh
+source;share/r-gator-model/local_setup.zsh

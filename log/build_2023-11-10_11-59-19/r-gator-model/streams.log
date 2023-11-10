@@ -1,0 +1,23 @@
+[0.173s] Invoking command in '/home/samee/ros2ws/build/r-gator-model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-model -- -j12 -l12
+[0.185s] Invoked command in '/home/samee/ros2ws/build/r-gator-model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-model -- -j12 -l12
+[0.214s] Invoking command in '/home/samee/ros2ws/build/r-gator-model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-model
+[0.217s] -- Install configuration: ""
+[0.217s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/launch
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/launch/display.launch
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/launch/gazebo.launch
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/ament_index/resource_index/package_run_dependencies/r-gator-model
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/ament_index/resource_index/parent_prefix_path/r-gator-model
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/environment/ament_prefix_path.sh
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/environment/path.sh
+[0.219s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/environment/path.dsv
+[0.219s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/local_setup.bash
+[0.219s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/local_setup.sh
+[0.219s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/local_setup.zsh
+[0.220s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/local_setup.dsv
+[0.220s] -- Installing: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/package.dsv
+[0.220s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/ament_index/resource_index/packages/r-gator-model
+[0.220s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/cmake/r-gator-modelConfig.cmake
+[0.220s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/cmake/r-gator-modelConfig-version.cmake
+[0.220s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-model/share/r-gator-model/package.xml
+[0.521s] Invoked command in '/home/samee/ros2ws/build/r-gator-model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-model

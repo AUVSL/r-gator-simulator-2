@@ -1,2 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/r_gator_launch': /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_launch
-Invoked command in '/home/samee/ros2ws/build/r_gator_launch' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src/r_gator_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_launch

@@ -1,1 +1,0 @@
-cv_bridge;rclcpp;rospy;sensor_msgs;geometry_msgs;ackermann_msgs;std_msgs;gazebo_ros;gem_description;controller_manager;controller_manager_msgs;effort_controllers;joint_state_controller;tf2

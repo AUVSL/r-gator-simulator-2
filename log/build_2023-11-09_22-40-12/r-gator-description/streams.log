@@ -1,0 +1,42 @@
+[0.424s] Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-description
+[0.472s] -- The C compiler identification is GNU 11.4.0
+[0.530s] -- The CXX compiler identification is GNU 11.4.0
+[0.544s] -- Detecting C compiler ABI info
+[0.603s] -- Detecting C compiler ABI info - done
+[0.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.623s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.634s] -- Detecting CXX compiler ABI info
+[0.703s] -- Detecting CXX compiler ABI info - done
+[0.722s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.723s] -- Detecting CXX compile features
+[0.724s] -- Detecting CXX compile features - done
+[0.727s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.590s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.720s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.849s] -- Added test 'lint_cmake' to check CMake code style
+[1.849s] -- Added test 'xmllint' to check XML markup files
+[1.851s] -- Configuring done (1.4s)
+[1.851s] -- Generating done (0.0s)
+[1.851s] -- Build files have been written to: /home/samee/ros2ws/build/r-gator-description
+[1.885s] Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-description
+[1.886s] Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description -- -j12 -l12
+[1.990s] Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description -- -j12 -l12
+[2.193s] Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description
+[2.198s] -- Install configuration: ""
+[2.198s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/package_run_dependencies/r-gator-description
+[2.199s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/parent_prefix_path/r-gator-description
+[2.199s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/ament_prefix_path.sh
+[2.199s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/ament_prefix_path.dsv
+[2.199s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/path.sh
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/path.dsv
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.bash
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.sh
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.zsh
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.dsv
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/package.dsv
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/packages/r-gator-description
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/cmake/r-gator-descriptionConfig.cmake
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/cmake/r-gator-descriptionConfig-version.cmake
+[2.200s] -- Installing: /home/samee/ros2ws/install/r-gator-description/share/r-gator-description/package.xml
+[2.403s] Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description

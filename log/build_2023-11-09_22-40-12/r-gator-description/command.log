@@ -1,0 +1,6 @@
+Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-description
+Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-description -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-description
+Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description -- -j12 -l12
+Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description -- -j12 -l12
+Invoking command in '/home/samee/ros2ws/build/r-gator-description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description
+Invoked command in '/home/samee/ros2ws/build/r-gator-description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description

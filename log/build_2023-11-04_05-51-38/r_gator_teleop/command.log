@@ -1,3 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/r_gator_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
-Invoked command in '/home/samee/ros2ws/build/r_gator_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_teleop -- -j12 -l12
-Invoking command in '/home/samee/ros2ws/build/r_gator_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r_gator_teleop

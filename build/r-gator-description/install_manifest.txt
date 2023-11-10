@@ -1,0 +1,15 @@
+/home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/package_run_dependencies/r-gator-description
+/home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/parent_prefix_path/r-gator-description
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/ament_prefix_path.sh
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/ament_prefix_path.dsv
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/path.sh
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/environment/path.dsv
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.bash
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.sh
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.zsh
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/local_setup.dsv
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/package.dsv
+/home/samee/ros2ws/install/r-gator-description/share/ament_index/resource_index/packages/r-gator-description
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/cmake/r-gator-descriptionConfig.cmake
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/cmake/r-gator-descriptionConfig-version.cmake
+/home/samee/ros2ws/install/r-gator-description/share/r-gator-description/package.xml

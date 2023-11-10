@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <arg name="world_name" default="highbay_track.world"/> 
+  <arg name="vehicle_x" default="-10"/>
+  <arg name="vehicle_y" default="-21"/>
+  <arg name="vehicle_yaw" default="3.14"/>
+
+
+  <arg name="configuration_basename" default="r_gator_slam_2d_gazebo.lua"/>
+  <arg name="remap_map_topic" default="false" />
+  <arg name="remap_map_topic_name" default="/cmap" />
+
+<include file="<span class="math-inline">\(find\-pkg\-share gazebo\_ros\)/launch/empty\_world\.launch"\>
+<arg name\="debug" value\="</span>(arg debug)" />
+    <arg name="gui" value="<span class="math-inline">\(arg gui\)" /\>
+<arg name\="paused" value\="</span>(arg paused)"/>
+    <arg name="use_sim_time" value="<span class="math-inline">\(arg use\_sim\_time\)"/\>
+<arg name\="headless" value\="</span>(arg headless)"/>
+    <arg name="verbose" value="false"/>
+    <arg name="world_name" value="<span class="math-inline">\(find\-pkg\-share r\_gator\_gazebo\)/worlds/</span>(arg world_name)"/>
+  </include>
+
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="yaw" default="0"/>
+  <arg name="velodyne_points" default="false"/>
+  
+  <include file="<span class="math-inline">\(find\-pkg\-share r\_gator\_gazebo\)/launch/r\_gator\_vehicle\.launch"\>
+<arg name\="x" value\="</span>(arg vehicle_x)"/>
+    <arg name="y" value="<span class="math-inline">\(arg vehicle\_y\)"/\>
+<arg name\="yaw" default\="</span>(arg vehicle_yaw)"/>
+  </include>
+
+  <!-- <node pkg="detected_objects_visualizer" exec="visualize_detected_objects" name="point_pillars_visualization_01"
+        output="screen"  ns="/detection/lidar_detector"/>
+   -->
+
+  <!-- <node
+    name="robot_transform_broadcaster_1"
+    pkg="tf2_ros"
+    exec="static_transform_publisher"
+    args="0 0 0 0 0 0 /map /base_link"/> -->
+
+  <node pkg="teleop_twist_keyboard" exec="teleop_twist_keyboard.py" name="teleop" output="screen">
+  </node>
+
+  <node pkg="r-gator-gazebo-tool" exec="cmd_vel_to_ackermann_drive.py" name="cmd_to_ackermann" output="screen">
+  </node>
+
+  <node pkg="r-gator-teleop" exec="r_gator_teleop_node" name="r_gator_teleop_node" output="screen">
+  </node>
+
+  <!-- <include file="<span class="math-inline">\(find r\_gator\_launch\)/launch/cartographer\_slam\.launch"\>
+<arg name\="configuration\_basename" value\="</span>(arg configuration_basename)"/>
+    <arg name="remap_map_topic" value="<span class="math-inline">\(arg remap\_map\_topic\)"/\>
+<arg name\="remap\_map\_topic\_name" value\="</span>(arg remap_map_topic_name)" />
+  </include> -->
+
+  <!-- <node pkg="r_gator_gazebo_tool" exec="r_gator_gazebo_tool_node" name="r_gator_gazebo_tool

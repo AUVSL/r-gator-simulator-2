@@ -1,0 +1,8 @@
+source;share/r-gator-model/hook/cmake_prefix_path.ps1
+source;share/r-gator-model/hook/cmake_prefix_path.dsv
+source;share/r-gator-model/hook/cmake_prefix_path.sh
+source;share/r-gator-model/local_setup.bash
+source;share/r-gator-model/local_setup.dsv
+source;share/r-gator-model/local_setup.ps1
+source;share/r-gator-model/local_setup.sh
+source;share/r-gator-model/local_setup.zsh

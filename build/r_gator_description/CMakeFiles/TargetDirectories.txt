@@ -1,9 +1,0 @@
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/uninstall.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/r_gator_description_uninstall.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/test.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/edit_cache.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/rebuild_cache.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/list_install_components.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/install.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/install/local.dir
-/home/samee/ros2ws/build/r_gator_description/CMakeFiles/install/strip.dir

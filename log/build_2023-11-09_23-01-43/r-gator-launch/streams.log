@@ -1,0 +1,25 @@
+[0.223s] Invoking command in '/home/samee/ros2ws/build/r-gator-launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-launch -- -j12 -l12
+[0.236s] Invoked command in '/home/samee/ros2ws/build/r-gator-launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-launch -- -j12 -l12
+[0.254s] Invoking command in '/home/samee/ros2ws/build/r-gator-launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-launch
+[0.260s] -- Install configuration: ""
+[0.260s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/launch
+[0.261s] -- Installing: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/launch/r_gator_highbay.launch.xml
+[0.261s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/launch/r_gator_init.launch
+[0.261s] -- Installing: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/launch/go.launch.py
+[0.261s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/launch/r_gator_sensor_info.launch
+[0.261s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/ament_index/resource_index/package_run_dependencies/r-gator-launch
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/ament_index/resource_index/parent_prefix_path/r-gator-launch
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/environment/ament_prefix_path.sh
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/environment/ament_prefix_path.dsv
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/environment/path.sh
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/environment/path.dsv
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/local_setup.bash
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/local_setup.sh
+[0.262s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/local_setup.zsh
+[0.263s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/local_setup.dsv
+[0.263s] -- Installing: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/package.dsv
+[0.263s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/ament_index/resource_index/packages/r-gator-launch
+[0.263s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/cmake/r-gator-launchConfig.cmake
+[0.263s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/cmake/r-gator-launchConfig-version.cmake
+[0.263s] -- Up-to-date: /home/samee/ros2ws/install/r-gator-launch/share/r-gator-launch/package.xml
+[0.376s] Invoked command in '/home/samee/ros2ws/build/r-gator-launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-launch

@@ -1,0 +1,4 @@
+source;share/r-gator-gazebo-tool/local_setup.bash
+source;share/r-gator-gazebo-tool/local_setup.dsv
+source;share/r-gator-gazebo-tool/local_setup.sh
+source;share/r-gator-gazebo-tool/local_setup.zsh
