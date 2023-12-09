@@ -1,0 +1,40 @@
+[0.355s] Invoking command in '/home/samee/ros2ws/build/sicktoolbox': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/sicktoolbox
+[0.396s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.396s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.397s]   CMake.
+[0.397s] 
+[0.397s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.397s]   CMake that the project does not need compatibility with older versions.
+[0.397s] 
+[0.397s] [0m
+[0.479s] -- The C compiler identification is GNU 11.4.0
+[0.626s] -- The CXX compiler identification is GNU 11.4.0
+[0.647s] -- Detecting C compiler ABI info
+[0.739s] -- Detecting C compiler ABI info - done
+[0.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.763s] -- Detecting C compile features
+[0.764s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[0.904s] -- Detecting CXX compiler ABI info - done
+[0.924s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.925s] -- Detecting CXX compile features
+[0.926s] -- Detecting CXX compile features - done
+[0.968s] -- Configuring incomplete, errors occurred!
+[0.968s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.975s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.975s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.976s]   CMake did not find one.
+[0.976s] 
+[0.976s]   Could not find a package configuration file provided by "catkin" with any
+[0.976s]   of the following names:
+[0.976s] 
+[0.976s]     catkinConfig.cmake
+[0.976s]     catkin-config.cmake
+[0.976s] 
+[0.976s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.977s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.977s]   provides a separate development package or SDK, be sure it has been
+[0.977s]   installed.
+[0.977s] 
+[0.977s] [0m
+[0.983s] Invoked command in '/home/samee/ros2ws/build/sicktoolbox' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/sicktoolbox

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:94 (file):
+  file INSTALL cannot find
+  "/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/launch":
+  No such file or directory.
+
+[0m

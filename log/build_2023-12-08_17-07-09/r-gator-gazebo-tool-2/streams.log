@@ -1,0 +1,19 @@
+[0.399s] Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
+[0.425s] [ 25%] [32m[1mLinking CXX executable tf_broadcaster_node[0m
+[0.427s] [ 50%] [32mBuilding CXX object CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[0.691s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/Odometry.h: No such file or directory
+[0.691s]    10 | #include [01;31m[K<nav_msgs/Odometry.h>[m[K
+[0.691s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.691s] compilation terminated.
+[0.693s] gmake[2]: *** [CMakeFiles/r-gator-gazebo-tool-2_node.dir/build.make:76: CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[0.693s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r-gator-gazebo-tool-2_node.dir/all] Error 2
+[0.693s] gmake[1]: *** Waiting for unfinished jobs....
+[0.875s] /usr/bin/ld: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o: in function `void tf2::convert<geometry_msgs::msg::Pose_<std::allocator<void> >, geometry_msgs::msg::Transform_<std::allocator<void> > >(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Transform_<std::allocator<void> >&)':
+[0.875s] tf_broadcaster.cpp:(.text._ZN3tf27convertIN13geometry_msgs3msg5Pose_ISaIvEEENS2_10Transform_IS4_EEEEvRKT_RT0_[_ZN3tf27convertIN13geometry_msgs3msg5Pose_ISaIvEEENS2_10Transform_IS4_EEEEvRKT_RT0_]+0x23): undefined reference to `void tf2::impl::Converter<true, true>::convert<geometry_msgs::msg::Pose_<std::allocator<void> >, geometry_msgs::msg::Transform_<std::allocator<void> > >(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Transform_<std::allocator<void> >&)'
+[0.877s] /usr/bin/ld: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >()':
+[0.877s] tf_broadcaster.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN8nav_msgs3msg14OccupancyGrid_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN8nav_msgs3msg14OccupancyGrid_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >()'
+[0.915s] collect2: error: ld returned 1 exit status
+[0.917s] gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:197: tf_broadcaster_node] Error 1
+[0.917s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+[0.917s] gmake: *** [Makefile:146: all] Error 2
+[1.250s] Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12

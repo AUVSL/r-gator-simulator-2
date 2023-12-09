@@ -1,0 +1,36 @@
+[0.402s] Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
+[0.424s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.791s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.803s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.085s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.087s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.489s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.573s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.134s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.543s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.683s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.691s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.693s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.797s] -- Configuring done (2.4s)
+[2.824s] -- Generating done (0.0s)
+[2.826s] -- Build files have been written to: /home/samee/ros2ws/build/r-gator-gazebo-tool-2
+[2.847s] [ 33%] [32mBuilding CXX object CMakeFiles/gazebo_odom_publisher.dir/src/gazebo_odom_publisher.cpp.o[0m
+[2.847s] [ 33%] [32mBuilding CXX object CMakeFiles/gazebo_odom_publisher_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[2.854s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.855s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[2.855s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.855s] compilation terminated.
+[2.855s] gmake[2]: *** [CMakeFiles/gazebo_odom_publisher.dir/build.make:76: CMakeFiles/gazebo_odom_publisher.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[2.855s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gazebo_odom_publisher.dir/all] Error 2
+[2.856s] gmake[1]: *** Waiting for unfinished jobs....
+[2.859s] [ 66%] Built target tf_broadcaster_node
+[8.531s] [ 83%] [32m[1mLinking CXX executable gazebo_odom_publisher_node[0m
+[8.755s] [ 83%] Built target gazebo_odom_publisher_node
+[8.756s] gmake: *** [Makefile:146: all] Error 2
+[8.757s] Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12

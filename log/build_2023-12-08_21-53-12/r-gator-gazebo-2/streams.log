@@ -1,0 +1,21 @@
+[0.286s] Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-2 -- -j12 -l12
+[0.300s] Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-2 -- -j12 -l12
+[0.315s] Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-gazebo-2
+[0.316s] -- Install configuration: ""
+[0.317s] -- Execute custom install script
+[0.317s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/ament_index/resource_index/package_run_dependencies/r-gator-gazebo-2
+[0.319s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/ament_index/resource_index/parent_prefix_path/r-gator-gazebo-2
+[0.320s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/environment/ament_prefix_path.sh
+[0.320s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/environment/path.sh
+[0.323s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/environment/path.dsv
+[0.324s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/local_setup.bash
+[0.324s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/local_setup.sh
+[0.325s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/local_setup.zsh
+[0.326s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/local_setup.dsv
+[0.327s] -- Symlinking: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.dsv
+[0.329s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/ament_index/resource_index/packages/r-gator-gazebo-2
+[0.329s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/cmake/r-gator-gazebo-2Config.cmake
+[0.329s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/cmake/r-gator-gazebo-2Config-version.cmake
+[0.330s] -- Up-to-date symlink: /home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.xml
+[0.336s] Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-gazebo-2

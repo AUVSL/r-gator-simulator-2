@@ -1,0 +1,1 @@
+Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo_tool': /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r_gator_gazebo_tool

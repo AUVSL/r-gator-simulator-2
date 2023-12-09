@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:58 (install):
+  install TARGETS given target "r-gator-gazebo-tool-2_node" which does not
+  exist.
+
+[0m
+gmake: *** [Makefile:325: cmake_check_build_system] Error 1

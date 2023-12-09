@@ -1,0 +1,18 @@
+[0.090s] Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo_tool': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12
+[0.104s] [ 25%] [32mBuilding CXX object CMakeFiles/r_gator_gazebo_tool_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o[0m
+[0.467s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/srv/get_model_state.hpp: No such file or directory
+[0.467s]     3 | #include [01;31m[K<gazebo_msgs/srv/get_model_state.hpp>[m[K
+[0.467s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.467s] compilation terminated.
+[0.469s] gmake[2]: *** [CMakeFiles/r_gator_gazebo_tool_node.dir/build.make:76: CMakeFiles/r_gator_gazebo_tool_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[0.470s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r_gator_gazebo_tool_node.dir/all] Error 2
+[0.470s] gmake[1]: *** Waiting for unfinished jobs....
+[0.480s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[0.481s]     4 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[0.481s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.481s] compilation terminated.
+[0.483s] gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:76: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o] Error 1
+[0.484s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+[0.484s] gmake: *** [Makefile:146: all] Error 2
+[0.542s] Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo_tool' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12

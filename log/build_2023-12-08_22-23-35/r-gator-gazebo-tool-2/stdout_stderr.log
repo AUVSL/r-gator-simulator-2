@@ -1,0 +1,34 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+   35 |     [01;31m[Ktf2[m[K::Transform transform;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+   36 |     [01;31m[Ktf2[m[K::Quaternion quaternion;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid TfBroadcasterNode::publishTransforms()[m[K’:
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:49:18:[m[K [01;31m[Kerror: [m[K‘[01m[KTransform[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Transform[m[K’?
+   49 |             tf2::[01;31m[KTransform[m[K tfTransform;
+      |                  [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h:42[m[K,
+                 from [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Transform[m[K’ declared here
+  135 | using [01;36m[KTransform[m[K =
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   50 |             tf2::[01;31m[Kconvert[m[K(grid_->info.origin, tfTransform);
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:50:46:[m[K [01;31m[Kerror: [m[K‘[01m[KtfTransform[m[K’ was not declared in this scope
+   50 |             tf2::convert(grid_->info.origin, [01;31m[KtfTransform[m[K);
+      |                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   55 |             tf2::[01;31m[Kconvert[m[K(tfTransform, odom_to_map.transform);
+      |                  [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/r-gator-gazebo-tool-2_node.dir/build.make:76: CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r-gator-gazebo-tool-2_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:76: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

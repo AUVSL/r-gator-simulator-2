@@ -1,0 +1,2 @@
+Invoking command in '/home/samee/ros2ws/build/jsk_footstep_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_footstep_msgs
+Invoked command in '/home/samee/ros2ws/build/jsk_footstep_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_footstep_msgs

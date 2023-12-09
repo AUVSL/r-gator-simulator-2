@@ -1,0 +1,40 @@
+[0.421s] Invoking command in '/home/samee/ros2ws/build/people_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/jsk_rviz/people_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/people_msgs
+[0.462s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.463s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.463s]   CMake.
+[0.463s] 
+[0.463s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.463s]   CMake that the project does not need compatibility with older versions.
+[0.463s] 
+[0.463s] [0m
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[0.687s] -- The CXX compiler identification is GNU 11.4.0
+[0.706s] -- Detecting C compiler ABI info
+[0.799s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.823s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.840s] -- Detecting CXX compiler ABI info
+[0.966s] -- Detecting CXX compiler ABI info - done
+[0.985s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.986s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[1.011s] [31mCMake Error at CMakeLists.txt:3 (find_package):
+[1.011s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.011s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.011s]   CMake did not find one.
+[1.011s] 
+[1.018s] -- Configuring incomplete, errors occurred!
+[1.019s]   Could not find a package configuration file provided by "catkin" with any
+[1.019s]   of the following names:
+[1.019s] 
+[1.020s]     catkinConfig.cmake
+[1.020s]     catkin-config.cmake
+[1.020s] 
+[1.020s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.020s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.020s]   provides a separate development package or SDK, be sure it has been
+[1.020s]   installed.
+[1.020s] 
+[1.020s] [0m
+[1.047s] Invoked command in '/home/samee/ros2ws/build/people_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/jsk_rviz/people_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/people_msgs

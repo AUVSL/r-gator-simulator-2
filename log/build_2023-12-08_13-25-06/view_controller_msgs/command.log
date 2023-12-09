@@ -1,0 +1,2 @@
+Invoking command in '/home/samee/ros2ws/build/view_controller_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/jsk_rviz/view_controller_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/view_controller_msgs
+Invoked command in '/home/samee/ros2ws/build/view_controller_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/jsk_rviz/view_controller_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/view_controller_msgs

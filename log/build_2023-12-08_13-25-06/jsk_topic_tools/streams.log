@@ -1,0 +1,39 @@
+[0.675s] Invoking command in '/home/samee/ros2ws/build/jsk_topic_tools': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/jsk_rviz/jsk_topic_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_topic_tools
+[0.708s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.708s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.708s]   CMake.
+[0.708s] 
+[0.708s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.708s]   CMake that the project does not need compatibility with older versions.
+[0.708s] 
+[0.709s] [0m
+[0.811s] -- The C compiler identification is GNU 11.4.0
+[0.953s] -- The CXX compiler identification is GNU 11.4.0
+[0.973s] -- Detecting C compiler ABI info
+[1.068s] -- Detecting C compiler ABI info - done
+[1.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.103s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.117s] -- Detecting CXX compiler ABI info
+[1.252s] -- Detecting CXX compiler ABI info - done
+[1.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.285s] -- Detecting CXX compile features
+[1.290s] -- Detecting CXX compile features - done
+[1.312s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.312s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.312s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.312s]   CMake did not find one.
+[1.312s] 
+[1.312s]   Could not find a package configuration file provided by "catkin" with any
+[1.312s]   of the following names:
+[1.312s] 
+[1.312s]     catkinConfig.cmake
+[1.312s]     catkin-config.cmake
+[1.313s] 
+[1.313s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.313s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.313s]   provides a separate development package or SDK, be sure it has been
+[1.313s]   installed.
+[1.313s] 
+[1.313s] [0m
+[1.313s] -- Configuring incomplete, errors occurred!

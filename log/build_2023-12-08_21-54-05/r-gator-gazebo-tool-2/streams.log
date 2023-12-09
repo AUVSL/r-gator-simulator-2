@@ -1,0 +1,20 @@
+[0.223s] Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
+[0.247s] [ 25%] [32mBuilding CXX object CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o[0m
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o[0m
+[0.453s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+[0.454s]     9 | #include [01;31m[K<nav_msgs/msg/occupancy_grid.hpp>[m[K
+[0.454s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.454s] compilation terminated.
+[0.456s] gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:76: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o] Error 1
+[0.456s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+[0.456s] gmake[1]: *** Waiting for unfinished jobs....
+[2.471s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+[2.471s]    35 |     [01;31m[Ktf2[m[K::Transform transform;
+[2.472s]       |     [01;31m[K^~~[m[K
+[2.472s] [01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+[2.472s]    36 |     [01;31m[Ktf2[m[K::Quaternion quaternion;
+[2.472s]       |     [01;31m[K^~~[m[K
+[3.480s] gmake[2]: *** [CMakeFiles/r-gator-gazebo-tool-2_node.dir/build.make:76: CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+[3.480s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r-gator-gazebo-tool-2_node.dir/all] Error 2
+[3.480s] gmake: *** [Makefile:146: all] Error 2
+[3.481s] Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12

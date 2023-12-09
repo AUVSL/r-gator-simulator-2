@@ -1,0 +1,15 @@
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/GetModelState.h: No such file or directory
+    5 | #include [01;31m[K<gazebo_msgs/GetModelState.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/r-gator-gazebo-tool-2_node.dir/build.make:76: CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r-gator-gazebo-tool-2_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o: in function `void tf2::convert<geometry_msgs::msg::Pose_<std::allocator<void> >, geometry_msgs::msg::Transform_<std::allocator<void> > >(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Transform_<std::allocator<void> >&)':
+tf_broadcaster.cpp:(.text._ZN3tf27convertIN13geometry_msgs3msg5Pose_ISaIvEEENS2_10Transform_IS4_EEEEvRKT_RT0_[_ZN3tf27convertIN13geometry_msgs3msg5Pose_ISaIvEEENS2_10Transform_IS4_EEEEvRKT_RT0_]+0x23): undefined reference to `void tf2::impl::Converter<true, true>::convert<geometry_msgs::msg::Pose_<std::allocator<void> >, geometry_msgs::msg::Transform_<std::allocator<void> > >(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Transform_<std::allocator<void> >&)'
+/usr/bin/ld: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >()':
+tf_broadcaster.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN8nav_msgs3msg14OccupancyGrid_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN8nav_msgs3msg14OccupancyGrid_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:197: tf_broadcaster_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>r_gator_teleop</name>
+  <version>0.0.0</version>
+  <description>The r_gator_teleop package</description>
+  <maintainer email="chris@todo.todo">chris</maintainer>
+  <license>TODO</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Combined build and execution dependencies -->
+  <!-- The <depend> tag is sufficient for both building and running -->
+  <depend>geometry_msgs</depend>
+  <depend>joy</depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <!-- Export information can be added here -->
+  </export>
+</package>

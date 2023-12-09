@@ -1,0 +1,16 @@
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/tf_broadcaster.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/OccupancyGrid.hpp: No such file or directory
+    9 | #include [01;31m[K<nav_msgs/msg/OccupancyGrid.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tf_broadcaster_node.dir/build.make:76: CMakeFiles/tf_broadcaster_node.dir/src/tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tf_broadcaster_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+   35 |     [01;31m[Ktf2[m[K::Transform transform;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/gazebo_odom_publisher.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ does not name a type
+   36 |     [01;31m[Ktf2[m[K::Quaternion quaternion;
+      |     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/r-gator-gazebo-tool-2_node.dir/build.make:76: CMakeFiles/r-gator-gazebo-tool-2_node.dir/src/gazebo_odom_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/r-gator-gazebo-tool-2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (r-gator-teleop-2) JobQueued: {'identifier': 'r-gator-teleop-2', 'dependencies': OrderedDict()}
+[0.000218] (r-gator-teleop-2) JobStarted: {'identifier': 'r-gator-teleop-2'}
+[0.068439] (r-gator-teleop-2) JobProgress: {'identifier': 'r-gator-teleop-2', 'progress': 'cmake'}
+[0.068567] (r-gator-teleop-2) Command: {'cmd': ['/usr/local/bin/cmake', '/home/samee/ros2ws/src/r-gator-teleop-2', '-DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-teleop-2'], 'cwd': '/home/samee/ros2ws/build/r-gator-teleop-2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('USER', 'samee'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1459'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/samee'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('DESKTOP_SESSION', 'plasma'), ('NVM_BIN', '/home/samee/.nvm/versions/node/v20.9.0/bin'), ('NVM_INC', '/home/samee/.nvm/versions/node/v20.9.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/samee/.gtkrc:/home/samee/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1328'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/samee/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/samee/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samee'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/samee/.gtkrc-2.0:/home/samee/.config/gtkrc-2.0'), ('PATH', '/home/samee/.local/bin:/home/samee/.nvm/versions/node/v20.9.0/bin:/opt/ros/humble/bin:/home/samee/.cargo/bin:/home/samee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/usr/lib/dart/bin'), ('SESSION_MANAGER', 'local/MSI:@/tmp/.ICE-unix/1672,unix/MSI:/tmp/.ICE-unix/1672'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'PearDarkCursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/samee/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2559cbe7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXchhz0u/agent.1338'), ('AMENT_PREFIX_PATH', '/home/samee/ros2ws/install/r-gator-teleop:/home/samee/ros2ws/install/r-gator-model:/home/samee/ros2ws/install/r-gator-launch:/home/samee/ros2ws/install/r-gator-gazebo-tool:/home/samee/ros2ws/install/r-gator-gazebo:/home/samee/ros2ws/install/r-gator-description:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '1'), ('PWD', '/home/samee/ros2ws/build/r-gator-teleop-2'), ('XDG_CONFIG_DIRS', '/home/samee/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/samee/ros2ws/install/r-gator-teleop:/home/samee/ros2ws/install/r-gator-model:/home/samee/ros2ws/install/r-gator-launch:/home/samee/ros2ws/install/r-gator-gazebo-tool:/home/samee/ros2ws/install/r-gator-gazebo:/home/samee/ros2ws/install/r-gator-description')]), 'shell': False}
+[0.099441] (-) TimerEvent: {}
+[0.100759] (r-gator-teleop-2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.142696] (r-gator-teleop-2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.152736] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.191347] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199543] (-) TimerEvent: {}
+[0.200962] (r-gator-teleop-2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.201268] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.201708] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.208459] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.260071] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.269844] (r-gator-teleop-2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.270088] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.270582] (r-gator-teleop-2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.272618] (r-gator-teleop-2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299656] (-) TimerEvent: {}
+[0.399918] (-) TimerEvent: {}
+[0.500145] (-) TimerEvent: {}
+[0.600392] (-) TimerEvent: {}
+[0.700614] (-) TimerEvent: {}
+[0.800881] (-) TimerEvent: {}
+[0.831095] (r-gator-teleop-2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.893281] (r-gator-teleop-2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900979] (-) TimerEvent: {}
+[0.938598] (r-gator-teleop-2) StderrLine: {'line': b"Error parsing '/home/samee/ros2ws/src/r-gator-teleop-2/package.xml':\n"}
+[0.974135] (r-gator-teleop-2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.974256] (r-gator-teleop-2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.974320] (r-gator-teleop-2) StderrLine: {'line': b'    main()\n'}
+[0.974372] (r-gator-teleop-2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.974422] (r-gator-teleop-2) StderrLine: {'line': b'    raise e\n'}
+[0.974471] (r-gator-teleop-2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.974519] (r-gator-teleop-2) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.974568] (r-gator-teleop-2) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[0.985291] (r-gator-teleop-2) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[0.985576] (r-gator-teleop-2) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/samee/ros2ws/src/r-gator-teleop-2/package.xml':\n"}
+[0.985735] (r-gator-teleop-2) StderrLine: {'line': b'Error(s):\n'}
+[0.985880] (r-gator-teleop-2) StderrLine: {'line': b"- The generic dependency on 'geometry_msgs' is redundant with: exec_depend\n"}
+[0.986019] (r-gator-teleop-2) StderrLine: {'line': b"- The generic dependency on 'joy' is redundant with: exec_depend\n"}
+[0.986157] (r-gator-teleop-2) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: exec_depend\n"}
+[0.986293] (r-gator-teleop-2) StderrLine: {'line': b"- The generic dependency on 'rclpy' is redundant with: exec_depend\n"}
+[0.986430] (r-gator-teleop-2) StderrLine: {'line': b"- The generic dependency on 'sensor_msgs' is redundant with: exec_depend\n"}
+[1.001115] (-) TimerEvent: {}
+[1.003600] (r-gator-teleop-2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.003840] (r-gator-teleop-2) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[1.003959] (r-gator-teleop-2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.004043] (r-gator-teleop-2) StderrLine: {'line': b'  /home/samee/ros2ws/src/r-gator-teleop-2/package.xml\n'}
+[1.004121] (r-gator-teleop-2) StderrLine: {'line': b'  /home/samee/ros2ws/build/r-gator-teleop-2/ament_cmake_core/package.cmake)\n'}
+[1.004199] (r-gator-teleop-2) StderrLine: {'line': b'  returned error code 1\n'}
+[1.004274] (r-gator-teleop-2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.004350] (r-gator-teleop-2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.004425] (r-gator-teleop-2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.004500] (r-gator-teleop-2) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[1.004575] (r-gator-teleop-2) StderrLine: {'line': b'\n'}
+[1.004649] (r-gator-teleop-2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.004723] (r-gator-teleop-2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.009539] (r-gator-teleop-2) CommandEnded: {'returncode': 1}
+[1.010260] (r-gator-teleop-2) JobEnded: {'identifier': 'r-gator-teleop-2', 'rc': 1}
+[1.020784] (-) EventReactorShutdown: {}

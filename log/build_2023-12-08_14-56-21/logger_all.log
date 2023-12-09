@@ -1,0 +1,413 @@
+[1.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f37ce33ec20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f37ce7ef190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f37ce7ef190>>)
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samee/ros2ws'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['ignore', 'ignore_ament_install']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ignore'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ignore_ament_install'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['colcon_pkg']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'colcon_pkg'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['colcon_meta']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'colcon_meta'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['ros']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ros'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['cmake', 'python']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'cmake'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'python'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['python_setup_py']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'python_setup_py'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['ignore', 'ignore_ament_install']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'ignore'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'ignore_ament_install'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['colcon_pkg']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'colcon_pkg'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['colcon_meta']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'colcon_meta'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['ros']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'ros'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['cmake', 'python']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'cmake'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'python'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extensions ['python_setup_py']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2) by extension 'python_setup_py'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extensions ['ignore', 'ignore_ament_install']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extension 'ignore'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extension 'ignore_ament_install'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extensions ['colcon_pkg']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extension 'colcon_pkg'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extensions ['colcon_meta']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extension 'colcon_meta'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extensions ['ros']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-description-2) by extension 'ros'
+[1.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-simulator-2/r-gator-description-2' with type 'ros.catkin' and name 'r-gator-description-2'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extensions ['ignore', 'ignore_ament_install']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extension 'ignore'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extension 'ignore_ament_install'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extensions ['colcon_pkg']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extension 'colcon_pkg'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extensions ['colcon_meta']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extension 'colcon_meta'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extensions ['ros']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-2) by extension 'ros'
+[1.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-simulator-2/r-gator-gazebo-2' with type 'ros.ament_cmake' and name 'r-gator-gazebo-2'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extensions ['ignore', 'ignore_ament_install']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extension 'ignore'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extension 'ignore_ament_install'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extensions ['colcon_pkg']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extension 'colcon_pkg'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extensions ['colcon_meta']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extension 'colcon_meta'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extensions ['ros']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-gazebo-tool-2) by extension 'ros'
+[1.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-simulator-2/r-gator-gazebo-tool-2' with type 'ros.catkin' and name 'r-gator-gazebo-tool-2'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extensions ['ignore', 'ignore_ament_install']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extension 'ignore'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extension 'ignore_ament_install'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extensions ['colcon_pkg']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extension 'colcon_pkg'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extensions ['colcon_meta']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extension 'colcon_meta'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extensions ['ros']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-launch-2) by extension 'ros'
+[1.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-simulator-2/r-gator-launch-2' with type 'ros.ament_cmake' and name 'r-gator-launch-2'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extensions ['ignore', 'ignore_ament_install']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extension 'ignore'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extension 'ignore_ament_install'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extensions ['colcon_pkg']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extension 'colcon_pkg'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extensions ['colcon_meta']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extension 'colcon_meta'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extensions ['ros']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-simulator-2/r-gator-model-2) by extension 'ros'
+[1.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-simulator-2/r-gator-model-2' with type 'ros.ament_cmake' and name 'r-gator-model-2'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['ignore', 'ignore_ament_install']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ignore'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['colcon_pkg']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'colcon_pkg'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['colcon_meta']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['ros']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ros'
+[1.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-teleop-2' with type 'ros.catkin' and name 'r-gator-teleop-2'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) ignored
+[1.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-model' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-gazebo-tool' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-teleop' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-model' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-launch' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-gazebo-tool' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.296s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/samee/ros2ws/install
+[1.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_args' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_target' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'r-gator-description-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.418s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-description-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-description-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-description-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-description-2', 'symlink_install': False, 'test_result_base': None}
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_args' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_target' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.435s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.435s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-gazebo-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-gazebo-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-gazebo-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-2', 'symlink_install': False, 'test_result_base': None}
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_args' from command line to 'None'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_target' from command line to 'None'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'r-gator-gazebo-tool-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.459s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-gazebo-tool-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-gazebo-tool-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-gazebo-tool-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2', 'symlink_install': False, 'test_result_base': None}
+[1.476s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_args' from command line to 'None'
+[1.476s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_target' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.477s] Level 5:colcon.colcon_core.verb:set package 'r-gator-launch-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.477s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-launch-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-launch-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-launch-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-launch-2', 'symlink_install': False, 'test_result_base': None}
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_target' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'r-gator-model-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.495s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-model-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-model-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-model-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-model-2', 'symlink_install': False, 'test_result_base': None}
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_target' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.512s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-teleop-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-teleop-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-teleop-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-teleop-2', 'symlink_install': False, 'test_result_base': None}
+[1.529s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.546s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-description-2' with build type 'catkin'
+[1.546s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-description-2'
+[1.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-2' with build type 'ament_cmake'
+[1.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-2'
+[1.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.697s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2' with build type 'catkin'
+[1.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2'
+[1.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-launch-2' with build type 'ament_cmake'
+[1.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-launch-2'
+[1.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.866s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-model-2' with build type 'ament_cmake'
+[1.867s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-model-2'
+[1.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.940s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src/r-gator-teleop-2' with build type 'catkin'
+[1.940s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src/r-gator-teleop-2'
+[1.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-description-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description-2 -- -j12 -l12
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-2 -- -j12 -l12
+[2.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
+[2.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-launch-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-launch-2 -- -j12 -l12
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-model-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-model-2 -- -j12 -l12
+[2.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-teleop-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-teleop-2 -- -j12 -l12
+[2.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-description-2' returned '0': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description-2 -- -j12 -l12
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-2 -- -j12 -l12
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-launch-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-launch-2 -- -j12 -l12
+[2.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-model-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-model-2 -- -j12 -l12
+[2.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-teleop-2' returned '0': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-teleop-2 -- -j12 -l12
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-gazebo-2
+[2.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-gazebo-2)
+[2.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-launch-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-launch-2
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-model-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-model-2
+[2.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-gazebo-2
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2' for CMake module files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2' for CMake config files
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-gazebo-2', 'cmake_prefix_path')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.sh'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/bin'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/lib/pkgconfig/r-gator-gazebo-2.pc'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/bin'
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.ps1'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.sh'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.bash'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-gazebo-2/share/colcon-core/packages/r-gator-gazebo-2)
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-description-2': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description-2
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-launch-2)
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-launch-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-launch-2
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2' for CMake module files
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2' for CMake config files
+[2.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-launch-2', 'cmake_prefix_path')
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.sh'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/bin'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/lib/pkgconfig/r-gator-launch-2.pc'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/lib/python3.10/site-packages'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/bin'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.bash'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.zsh'
+[2.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-launch-2/share/colcon-core/packages/r-gator-launch-2)
+[2.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-model-2)
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-model-2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-model-2
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2' for CMake module files
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2' for CMake config files
+[2.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-model-2', 'cmake_prefix_path')
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/lib/pkgconfig/r-gator-model-2.pc'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/lib/python3.10/site-packages'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/bin'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.ps1'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.dsv'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.sh'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.bash'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.zsh'
+[2.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-model-2/share/colcon-core/packages/r-gator-model-2)
+[2.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/r-gator-teleop-2': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-teleop-2
+[2.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
+[2.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-gazebo-2)
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2' for CMake module files
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2' for CMake config files
+[2.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-gazebo-2', 'cmake_prefix_path')
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.ps1'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.dsv'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/hook/cmake_prefix_path.sh'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/bin'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/lib/pkgconfig/r-gator-gazebo-2.pc'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/lib/python3.10/site-packages'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-2/bin'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.bash'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-2/share/r-gator-gazebo-2/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-gazebo-2/share/colcon-core/packages/r-gator-gazebo-2)
+[2.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-description-2' returned '0': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description-2
+[2.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-launch-2)
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2' for CMake module files
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2' for CMake config files
+[2.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-launch-2', 'cmake_prefix_path')
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.dsv'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/hook/cmake_prefix_path.sh'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/bin'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/lib/pkgconfig/r-gator-launch-2.pc'
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/lib/python3.10/site-packages'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-launch-2/bin'
+[2.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.ps1'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.dsv'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.bash'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-launch-2/share/r-gator-launch-2/package.zsh'
+[2.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-launch-2/share/colcon-core/packages/r-gator-launch-2)
+[2.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-model-2)
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2' for CMake module files
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2' for CMake config files
+[2.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-model-2', 'cmake_prefix_path')
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.dsv'
+[2.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/hook/cmake_prefix_path.sh'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/bin'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/lib/pkgconfig/r-gator-model-2.pc'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/lib/python3.10/site-packages'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-model-2/bin'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.ps1'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.dsv'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.sh'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.bash'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-model-2/share/r-gator-model-2/package.zsh'
+[2.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-model-2/share/colcon-core/packages/r-gator-model-2)
+[2.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-gazebo-tool-2', 'ros_package_path')
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/ros_package_path.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/ros_package_path.dsv'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/ros_package_path.sh'
+[2.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-gazebo-tool-2', 'pkg_config_path')
+[2.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path.dsv'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path.sh'
+[2.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('r-gator-gazebo-tool-2', 'pkg_config_path_multiarch')
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path_multiarch.ps1'
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path_multiarch.dsv'
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/hook/pkg_config_path_multiarch.sh'
+[2.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r-gator-gazebo-tool-2)
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2' for CMake module files
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2' for CMake config files
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/bin'
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/lib/pkgconfig/r-gator-gazebo-tool-2.pc'
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/lib/python3.10/site-packages'
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/bin'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/package.ps1'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/package.dsv'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/package.sh'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/package.bash'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/r-gator-gazebo-tool-2/package.zsh'
+[2.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/r-gator-gazebo-tool-2/share/colcon-core/packages/r-gator-gazebo-tool-2)
+[2.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/r-gator-teleop-2' returned '0': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-teleop-2
+[2.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.578s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.598s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.618s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samee/ros2ws/install/_local_setup_util_ps1.py'
+[2.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.ps1'
+[2.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.sh'
+[2.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samee/ros2ws/install/_local_setup_util_sh.py'
+[2.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.sh'
+[2.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.bash'
+[2.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.bash'
+[2.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.zsh'
+[2.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.zsh'

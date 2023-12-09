@@ -1,0 +1,1045 @@
+[0.945s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.945s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f41b5336b90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f41b57e7010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f41b57e7010>>)
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.994s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samee/ros2ws'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'ros'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['cmake', 'python']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'cmake'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'python'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extensions ['python_setup_py']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/images) by extension 'python_setup_py'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/r-gator-teleop-2) by extension 'ros'
+[1.010s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r-gator-teleop-2' with type 'ros.ament_cmake' and name 'r-gator-teleop-2'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'ros'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['cmake', 'python']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'cmake'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'python'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extensions ['python_setup_py']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean) by extension 'python_setup_py'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'ros'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['cmake', 'python']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'cmake'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'python'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extensions ['python_setup_py']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator) by extension 'python_setup_py'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_description) by extension 'ros'
+[1.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_simulator/r_gator_description' with type 'ros.catkin' and name 'r_gator_description'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extension 'ignore'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extensions ['colcon_pkg']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extensions ['colcon_meta']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo) by extension 'ros'
+[1.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_simulator/r_gator_gazebo' with type 'ros.catkin' and name 'r_gator_gazebo'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extensions ['ignore', 'ignore_ament_install']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_gazebo_tool) by extension 'ros'
+[1.015s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_simulator/r_gator_gazebo_tool' with type 'ros.catkin' and name 'r_gator_gazebo_tool'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extension 'ignore'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extension 'ignore_ament_install'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extensions ['colcon_pkg']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extensions ['ros']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/r_gator_launch) by extension 'ros'
+[1.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_simulator/r_gator_launch' with type 'ros.catkin' and name 'r_gator_launch'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extension 'colcon_pkg'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extensions ['colcon_meta']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extension 'colcon_meta'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extensions ['ros']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_simulator/rgator_model) by extension 'ros'
+[1.017s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_simulator/rgator_model' with type 'ros.catkin' and name 'rgator_model'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extension 'ignore'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extension 'ignore_ament_install'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extensions ['colcon_pkg']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/r_gator_teleop) by extension 'ros'
+[1.018s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/r_gator_teleop' with type 'ros.catkin' and name 'r_gator_teleop'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'ignore_ament_install'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['colcon_pkg']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'colcon_pkg'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['colcon_meta']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'colcon_meta'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['ros']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'ros'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['cmake', 'python']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'cmake'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'python'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extensions ['python_setup_py']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers) by extension 'python_setup_py'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extension 'ignore_ament_install'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extensions ['colcon_pkg']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extension 'colcon_pkg'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extensions ['colcon_meta']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extension 'colcon_meta'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extensions ['ros']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/actor_collision) by extension 'ros'
+[1.019s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/actor_collision' with type 'ros.catkin' and name 'actor_collision'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'ignore_ament_install'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['colcon_pkg']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'colcon_pkg'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['colcon_meta']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['ros']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'ros'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['cmake', 'python']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'cmake'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'python'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extensions ['python_setup_py']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo) by extension 'python_setup_py'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extension 'ignore'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extensions ['ros']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo) by extension 'ros'
+[1.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/hector_gazebo/hector_gazebo' with type 'ros.catkin' and name 'hector_gazebo'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extension 'ignore_ament_install'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extensions ['colcon_pkg']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extension 'colcon_pkg'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extensions ['colcon_meta']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins) by extension 'ros'
+[1.022s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins' with type 'ros.catkin' and name 'hector_gazebo_plugins'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extension 'colcon_pkg'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extensions ['colcon_meta']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extensions ['ros']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera) by extension 'ros'
+[1.022s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera' with type 'ros.catkin' and name 'hector_gazebo_thermal_camera'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extension 'colcon_meta'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds) by extension 'ros'
+[1.023s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds' with type 'ros.catkin' and name 'hector_gazebo_worlds'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo) by extension 'ros'
+[1.024s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo' with type 'ros.catkin' and name 'hector_sensors_gazebo'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['cmake', 'python']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'cmake'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'colcon_meta'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['ros']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['cmake', 'python']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'cmake'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extension 'ignore'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extension 'ignore_ament_install'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extensions ['colcon_pkg']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extension 'colcon_pkg'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs) by extension 'ros'
+[1.026s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs' with type 'ros.catkin' and name 'jsk_footstep_msgs'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extension 'ignore'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extension 'ignore_ament_install'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extensions ['colcon_pkg']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extensions ['colcon_meta']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extension 'colcon_meta'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extensions ['ros']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs) by extension 'ros'
+[1.027s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs' with type 'ros.catkin' and name 'jsk_gui_msgs'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extensions ['ros']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs' with type 'ros.catkin' and name 'jsk_hark_msgs'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['ros']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'ros'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['cmake', 'python']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'cmake'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'python'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extensions ['python_setup_py']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition) by extension 'python_setup_py'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs) by extension 'ros'
+[1.030s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs' with type 'ros.catkin' and name 'jsk_recognition_msgs'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extension 'ignore_ament_install'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extensions ['colcon_pkg']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils) by extension 'ros'
+[1.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils' with type 'ros.catkin' and name 'jsk_recognition_utils'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extension 'ignore_ament_install'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extensions ['colcon_pkg']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extension 'colcon_pkg'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extension 'colcon_meta'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extensions ['ros']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins) by extension 'ros'
+[1.035s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins' with type 'ros.catkin' and name 'jsk_rviz_plugins'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools) by extension 'ros'
+[1.038s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools' with type 'ros.catkin' and name 'jsk_topic_tools'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extension 'ignore_ament_install'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/people_msgs) by extension 'ros'
+[1.038s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/people_msgs' with type 'ros.catkin' and name 'people_msgs'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extension 'ignore_ament_install'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extensions ['colcon_pkg']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extension 'colcon_pkg'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extensions ['colcon_meta']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extension 'colcon_meta'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extensions ['ros']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/jsk_rviz/view_controller_msgs) by extension 'ros'
+[1.039s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/jsk_rviz/view_controller_msgs' with type 'ros.catkin' and name 'view_controller_msgs'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extension 'ignore_ament_install'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extensions ['colcon_pkg']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extension 'colcon_pkg'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extensions ['colcon_meta']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extension 'colcon_meta'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extensions ['ros']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox) by extension 'ros'
+[1.040s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/sicktoolbox' with type 'ros.catkin' and name 'sicktoolbox'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extension 'ignore_ament_install'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extensions ['colcon_pkg']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extension 'colcon_pkg'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extensions ['colcon_meta']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extension 'colcon_meta'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extensions ['ros']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/sicktoolbox_wrapper) by extension 'ros'
+[1.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/sicktoolbox_wrapper' with type 'ros.catkin' and name 'sicktoolbox_wrapper'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['colcon_meta']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'python'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extensions ['python_setup_py']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator) by extension 'python_setup_py'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'python'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extensions ['python_setup_py']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/img) by extension 'python_setup_py'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_description) by extension 'ros'
+[1.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/velodyne_simulator/velodyne_description' with type 'ros.catkin' and name 'velodyne_description'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[1.044s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.catkin' and name 'velodyne_gazebo_plugins'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator' with type 'ros.catkin' and name 'velodyne_simulator'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/ros_drivers/waypoint_logger) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/ros_drivers/waypoint_logger' with type 'ros.catkin' and name 'waypoint_logger'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'ros'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['cmake', 'python']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'cmake'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'python'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extensions ['python_setup_py']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers) by extension 'python_setup_py'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_pure_pursuit_sim) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/vehicle_drivers/gem_pure_pursuit_sim' with type 'ros.catkin' and name 'gem_pure_pursuit_sim'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src_unclean/vehicle_drivers/gem_stanley_sim) by extension 'ros'
+[1.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src_unclean/vehicle_drivers/gem_stanley_sim' with type 'ros.catkin' and name 'gem_stanley_sim'
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-model' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-gazebo-tool' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samee/ros2ws/install/r-gator-description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-teleop' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-model' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-launch' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-gazebo-tool' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.153s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samee/ros2ws/install/r-gator-description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/samee/ros2ws/install
+[1.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_target' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_clean_cache' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_clean_first' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'cmake_force_configure' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'actor_collision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'actor_collision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/actor_collision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/actor_collision', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/actor_collision', 'symlink_install': False, 'test_result_base': None}
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_args' from command line to 'None'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_target' from command line to 'None'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'gem_pure_pursuit_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.281s] DEBUG:colcon.colcon_core.verb:Building package 'gem_pure_pursuit_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/gem_pure_pursuit_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/gem_pure_pursuit_sim', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/vehicle_drivers/gem_pure_pursuit_sim', 'symlink_install': False, 'test_result_base': None}
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'gem_stanley_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.296s] DEBUG:colcon.colcon_core.verb:Building package 'gem_stanley_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/gem_stanley_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/gem_stanley_sim', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/vehicle_drivers/gem_stanley_sim', 'symlink_install': False, 'test_result_base': None}
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.311s] DEBUG:colcon.colcon_core.verb:Building package 'hector_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/hector_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/hector_gazebo_plugins', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_args' from command line to 'None'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_target' from command line to 'None'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.326s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_thermal_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.326s] DEBUG:colcon.colcon_core.verb:Building package 'hector_gazebo_thermal_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/hector_gazebo_thermal_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/hector_gazebo_thermal_camera', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera', 'symlink_install': False, 'test_result_base': None}
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_target' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'jsk_footstep_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.340s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_footstep_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_footstep_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_footstep_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_args' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_target' from command line to 'None'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'jsk_gui_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.355s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_gui_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_gui_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_gui_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_target' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'jsk_hark_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.369s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_hark_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_hark_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_hark_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'jsk_topic_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.383s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_topic_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_topic_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_topic_tools', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools', 'symlink_install': False, 'test_result_base': None}
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'people_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'people_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/people_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/people_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/people_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_target' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_clean_first' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'cmake_force_configure' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'ament_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'r-gator-teleop-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.412s] DEBUG:colcon.colcon_core.verb:Building package 'r-gator-teleop-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r-gator-teleop-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r-gator-teleop-2', 'merge_install': False, 'path': '/home/samee/ros2ws/src/r-gator-teleop-2', 'symlink_install': False, 'test_result_base': None}
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_args' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_target' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.426s] Level 5:colcon.colcon_core.verb:set package 'r_gator_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.426s] DEBUG:colcon.colcon_core.verb:Building package 'r_gator_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r_gator_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r_gator_description', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_simulator/r_gator_description', 'symlink_install': False, 'test_result_base': None}
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.441s] DEBUG:colcon.colcon_core.verb:Building package 'r_gator_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r_gator_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r_gator_gazebo', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_simulator/r_gator_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_target' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_clean_cache' from command line to 'False'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_clean_first' from command line to 'False'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'cmake_force_configure' from command line to 'False'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'ament_cmake_args' from command line to 'None'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'catkin_cmake_args' from command line to 'None'
+[1.456s] Level 5:colcon.colcon_core.verb:set package 'r_gator_gazebo_tool' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.456s] DEBUG:colcon.colcon_core.verb:Building package 'r_gator_gazebo_tool' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r_gator_gazebo_tool', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r_gator_gazebo_tool', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_simulator/r_gator_gazebo_tool', 'symlink_install': False, 'test_result_base': None}
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_args' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_target' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'r_gator_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.470s] DEBUG:colcon.colcon_core.verb:Building package 'r_gator_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r_gator_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r_gator_launch', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_simulator/r_gator_launch', 'symlink_install': False, 'test_result_base': None}
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_args' from command line to 'None'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_target' from command line to 'None'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'r_gator_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.484s] DEBUG:colcon.colcon_core.verb:Building package 'r_gator_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/r_gator_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/r_gator_teleop', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_args' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_target' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_clean_cache' from command line to 'False'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_clean_first' from command line to 'False'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'cmake_force_configure' from command line to 'False'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'ament_cmake_args' from command line to 'None'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'catkin_cmake_args' from command line to 'None'
+[1.499s] Level 5:colcon.colcon_core.verb:set package 'rgator_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.499s] DEBUG:colcon.colcon_core.verb:Building package 'rgator_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/rgator_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/rgator_model', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/r_gator_simulator/rgator_model', 'symlink_install': False, 'test_result_base': None}
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_args' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_target' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.513s] DEBUG:colcon.colcon_core.verb:Building package 'sicktoolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/sicktoolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/sicktoolbox', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox', 'symlink_install': False, 'test_result_base': None}
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to 'None'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.533s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/velodyne_description', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_description', 'symlink_install': False, 'test_result_base': None}
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.554s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_args' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_target' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'view_controller_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.572s] DEBUG:colcon.colcon_core.verb:Building package 'view_controller_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/view_controller_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/view_controller_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/view_controller_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_target' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_clean_cache' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_clean_first' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'cmake_force_configure' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'ament_cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'catkin_cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'waypoint_logger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.591s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_logger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/waypoint_logger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/waypoint_logger', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/waypoint_logger', 'symlink_install': False, 'test_result_base': None}
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_target' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.610s] DEBUG:colcon.colcon_core.verb:Building package 'hector_gazebo_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/hector_gazebo_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/hector_gazebo_worlds', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_worlds', 'symlink_install': False, 'test_result_base': None}
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'hector_sensors_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.628s] DEBUG:colcon.colcon_core.verb:Building package 'hector_sensors_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/hector_sensors_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/hector_sensors_gazebo', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_sensors_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_target' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.647s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_recognition_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_recognition_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_recognition_msgs', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_target' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'sicktoolbox_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.664s] DEBUG:colcon.colcon_core.verb:Building package 'sicktoolbox_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/sicktoolbox_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/sicktoolbox_wrapper', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox_wrapper', 'symlink_install': False, 'test_result_base': None}
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.678s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/velodyne_simulator', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.693s] DEBUG:colcon.colcon_core.verb:Building package 'hector_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/hector_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/hector_gazebo', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_args' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_target' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_clean_first' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'cmake_force_configure' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'ament_cmake_args' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'jsk_recognition_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.708s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_recognition_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_recognition_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_recognition_utils', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_recoginition/jsk_recognition_utils', 'symlink_install': False, 'test_result_base': None}
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_args' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_target' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'jsk_rviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.722s] DEBUG:colcon.colcon_core.verb:Building package 'jsk_rviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samee/ros2ws/build/jsk_rviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samee/ros2ws/install/jsk_rviz_plugins', 'merge_install': False, 'path': '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_rviz_plugins', 'symlink_install': False, 'test_result_base': None}
+[1.737s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.752s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins' with build type 'catkin'
+[1.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins'
+[1.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs' with build type 'catkin'
+[1.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs'
+[1.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools' with build type 'catkin'
+[1.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools'
+[1.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.946s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera' with build type 'catkin'
+[1.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera'
+[1.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.011s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs' with build type 'catkin'
+[2.011s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs'
+[2.026s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.076s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs' with build type 'catkin'
+[2.076s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs'
+[2.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.140s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/people_msgs' with build type 'catkin'
+[2.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/people_msgs'
+[2.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.206s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox' with build type 'catkin'
+[2.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox'
+[2.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.271s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_description' with build type 'catkin'
+[2.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_description'
+[2.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.334s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins' with build type 'catkin'
+[2.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.400s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/view_controller_msgs' with build type 'catkin'
+[2.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/view_controller_msgs'
+[2.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.465s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/samee/ros2ws/src_unclean/ros_drivers/actor_collision' with build type 'catkin'
+[2.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samee/ros2ws/src_unclean/ros_drivers/actor_collision'
+[2.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/hector_gazebo_plugins': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/hector_gazebo_plugins
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/jsk_footstep_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_footstep_msgs
+[2.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/jsk_topic_tools': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_topic_tools
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/hector_gazebo_thermal_camera': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/hector_gazebo_thermal_camera
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/jsk_gui_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_gui_msgs
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/jsk_hark_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_hark_msgs
+[2.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/people_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/people_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/people_msgs
+[2.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/sicktoolbox': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/sicktoolbox
+[2.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/velodyne_description': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/velodyne_description
+[2.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/velodyne_gazebo_plugins': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/velodyne_gazebo_plugins
+[2.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/view_controller_msgs': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/view_controller_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/view_controller_msgs
+[2.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samee/ros2ws/build/actor_collision': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/actor_collision -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/actor_collision
+[2.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/hector_gazebo_plugins' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/hector_gazebo_plugins
+[2.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/jsk_footstep_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_footstep_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_footstep_msgs
+[2.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/hector_gazebo_thermal_camera' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/hector_gazebo/hector_gazebo_thermal_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/hector_gazebo_thermal_camera
+[2.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/jsk_gui_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_gui_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_gui_msgs
+[2.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/jsk_topic_tools' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_topic_tools
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/jsk_hark_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_common_msgs/jsk_hark_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_hark_msgs
+[2.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/people_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/people_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/people_msgs
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/sicktoolbox' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/sicktoolbox
+[2.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/velodyne_gazebo_plugins' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/velodyne_gazebo_plugins
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/view_controller_msgs' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/view_controller_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/view_controller_msgs
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/velodyne_description' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/velodyne_simulator/velodyne_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/velodyne_description
+[2.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samee/ros2ws/build/actor_collision' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/actor_collision -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/actor_collision
+[2.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hector_gazebo_plugins)
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins' for CMake module files
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins' for CMake config files
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins/bin'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins/lib/pkgconfig/hector_gazebo_plugins.pc'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins/lib/python3.10/site-packages'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_plugins/bin'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.dsv'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.sh'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.bash'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.zsh'
+[2.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/hector_gazebo_plugins/share/colcon-core/packages/hector_gazebo_plugins)
+[2.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsk_footstep_msgs)
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs' for CMake module files
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs' for CMake config files
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs/bin'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs/lib/pkgconfig/jsk_footstep_msgs.pc'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs/lib/python3.10/site-packages'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_footstep_msgs/bin'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_footstep_msgs/share/jsk_footstep_msgs/package.ps1'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/jsk_footstep_msgs/share/jsk_footstep_msgs/package.dsv'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_footstep_msgs/share/jsk_footstep_msgs/package.sh'
+[2.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_footstep_msgs/share/jsk_footstep_msgs/package.bash'
+[2.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_footstep_msgs/share/jsk_footstep_msgs/package.zsh'
+[2.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/jsk_footstep_msgs/share/colcon-core/packages/jsk_footstep_msgs)
+[2.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hector_gazebo_thermal_camera)
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera' for CMake module files
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera' for CMake config files
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/bin'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/lib/pkgconfig/hector_gazebo_thermal_camera.pc'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/lib/python3.10/site-packages'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/bin'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/hector_gazebo_thermal_camera/package.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/hector_gazebo_thermal_camera/package.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/hector_gazebo_thermal_camera/package.sh'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/hector_gazebo_thermal_camera/package.bash'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/hector_gazebo_thermal_camera/package.zsh'
+[2.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/hector_gazebo_thermal_camera/share/colcon-core/packages/hector_gazebo_thermal_camera)
+[2.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsk_gui_msgs)
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs' for CMake module files
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs' for CMake config files
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs/bin'
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs/lib/pkgconfig/jsk_gui_msgs.pc'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs/lib/python3.10/site-packages'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_gui_msgs/bin'
+[2.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_gui_msgs/share/jsk_gui_msgs/package.ps1'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/jsk_gui_msgs/share/jsk_gui_msgs/package.dsv'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_gui_msgs/share/jsk_gui_msgs/package.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_gui_msgs/share/jsk_gui_msgs/package.bash'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_gui_msgs/share/jsk_gui_msgs/package.zsh'
+[2.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/jsk_gui_msgs/share/colcon-core/packages/jsk_gui_msgs)
+[2.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsk_topic_tools)
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools' for CMake module files
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools' for CMake config files
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools/bin'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools/lib/pkgconfig/jsk_topic_tools.pc'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools/lib/python3.10/site-packages'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_topic_tools/bin'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_topic_tools/share/jsk_topic_tools/package.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/jsk_topic_tools/share/jsk_topic_tools/package.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_topic_tools/share/jsk_topic_tools/package.sh'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_topic_tools/share/jsk_topic_tools/package.bash'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_topic_tools/share/jsk_topic_tools/package.zsh'
+[2.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/jsk_topic_tools/share/colcon-core/packages/jsk_topic_tools)
+[2.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsk_hark_msgs)
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs' for CMake module files
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs' for CMake config files
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs/bin'
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs/lib/pkgconfig/jsk_hark_msgs.pc'
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs/lib/python3.10/site-packages'
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/jsk_hark_msgs/bin'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_hark_msgs/share/jsk_hark_msgs/package.ps1'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/jsk_hark_msgs/share/jsk_hark_msgs/package.dsv'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_hark_msgs/share/jsk_hark_msgs/package.sh'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_hark_msgs/share/jsk_hark_msgs/package.bash'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/jsk_hark_msgs/share/jsk_hark_msgs/package.zsh'
+[2.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/jsk_hark_msgs/share/colcon-core/packages/jsk_hark_msgs)
+[2.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(people_msgs)
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs' for CMake module files
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs' for CMake config files
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs/bin'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs/lib/pkgconfig/people_msgs.pc'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs/lib/python3.10/site-packages'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/people_msgs/bin'
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/people_msgs/share/people_msgs/package.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/people_msgs/share/people_msgs/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/people_msgs/share/people_msgs/package.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/people_msgs/share/people_msgs/package.bash'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/people_msgs/share/people_msgs/package.zsh'
+[2.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/people_msgs/share/colcon-core/packages/people_msgs)
+[2.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sicktoolbox)
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox' for CMake module files
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox' for CMake config files
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox/bin'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox/lib/pkgconfig/sicktoolbox.pc'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox/lib/python3.10/site-packages'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/sicktoolbox/bin'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/sicktoolbox/share/sicktoolbox/package.ps1'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/sicktoolbox/share/sicktoolbox/package.dsv'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/sicktoolbox/share/sicktoolbox/package.sh'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/sicktoolbox/share/sicktoolbox/package.bash'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/sicktoolbox/share/sicktoolbox/package.zsh'
+[2.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/sicktoolbox/share/colcon-core/packages/sicktoolbox)
+[2.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins' for CMake module files
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins' for CMake config files
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins/bin'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/velodyne_gazebo_plugins/bin'
+[2.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[2.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[2.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(view_controller_msgs)
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs' for CMake module files
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs' for CMake config files
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs/bin'
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs/lib/pkgconfig/view_controller_msgs.pc'
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs/lib/python3.10/site-packages'
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/samee/ros2ws/install/view_controller_msgs/bin'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/view_controller_msgs/share/view_controller_msgs/package.ps1'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samee/ros2ws/install/view_controller_msgs/share/view_controller_msgs/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/view_controller_msgs/share/view_controller_msgs/package.sh'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/view_controller_msgs/share/view_controller_msgs/package.bash'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/samee/ros2ws/install/view_controller_msgs/share/view_controller_msgs/package.zsh'
+[2.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samee/ros2ws/install/view_controller_msgs/share/colcon-core/packages/view_controller_msgs)
+[2.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.948s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.971s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.971s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.971s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.989s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samee/ros2ws/install/_local_setup_util_ps1.py'
+[3.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.ps1'
+[3.022s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.sh'
+[3.022s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samee/ros2ws/install/_local_setup_util_sh.py'
+[3.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.sh'
+[3.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.bash'
+[3.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.bash'
+[3.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samee/ros2ws/install/local_setup.zsh'
+[3.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samee/ros2ws/install/setup.zsh'
