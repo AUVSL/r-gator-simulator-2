@@ -91,6 +91,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/r-gator-gazebo-tool-2" TYPE PROGRAM FILES "/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2/src/cmd-vel-to-ackermann-drive.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samee/ros2ws/build/r-gator-gazebo-tool-2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/r-gator-gazebo-tool-2")
 endif()
 

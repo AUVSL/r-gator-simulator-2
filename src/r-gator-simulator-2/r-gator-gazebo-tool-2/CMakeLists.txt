@@ -60,5 +60,8 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-
+install(PROGRAMS
+  src/cmd-vel-to-ackermann-drive.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 ament_package()
