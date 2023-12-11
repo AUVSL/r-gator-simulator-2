@@ -1,53 +1,45 @@
-#include <ros/ros.h>
-#include <geometry_msgs/Twist.h>
-#include <sensor_msgs/Joy.h>
+#include <rclcpp/rclcpp.hpp>
+#include <geometry_msgs/msg/twist.hpp>
+#include <sensor_msgs/msg/joy.hpp>
 
-class TeleopTurtle
+class TeleopTurtle : public rclcpp::Node
 {
 public:
     TeleopTurtle();
 
 private:
-    // 处理手柄发送过来的信息
-    void callback(const sensor_msgs::Joy::ConstPtr &joy);
-    // 实例化ROS句柄
-    ros::NodeHandle nh;
-    // 定义订阅者对象，用来订阅手柄发送的数据
-    ros::Subscriber sub;
-    // 定义发布者对象，用来将手柄数据发布到乌龟控制话题上
-    ros::Publisher pub;
-    // 用来接收launch文件中设置的参数，绑定手柄摇杆、轴的映射
-    int axis_linear, axis_angular;
+    void joyCallback(const sensor_msgs::msg::Joy::SharedPtr joy);
+    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_;
+    int axis_linear_, axis_angular_;
 };
 
-TeleopTurtle::TeleopTurtle()
+TeleopTurtle::TeleopTurtle() : Node("teleop_turtle")
 {
-    // 从参数服务器读取的参数
-    nh.param<int>("axis_linear", axis_linear, 1);
-    nh.param<int>("axis_angular", axis_angular, 2);
+    this->declare_parameter<int>("axis_linear", 1);
+    this->declare_parameter<int>("axis_angular", 2);
+    this->get_parameter("axis_linear", axis_linear_);
+    this->get_parameter("axis_angular", axis_angular_);
 
-    pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
-    sub = nh.subscribe<sensor_msgs::Joy>("joy", 10, &TeleopTurtle::callback, this);
+    pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+    sub_ = this->create_subscription<sensor_msgs::msg::Joy>(
+        "joy", 10, std::bind(&TeleopTurtle::joyCallback, this, std::placeholders::_1));
 }
 
-void TeleopTurtle::callback(const sensor_msgs::Joy::ConstPtr &joy)
+void TeleopTurtle::joyCallback(const sensor_msgs::msg::Joy::SharedPtr joy)
 {
-    geometry_msgs::Twist vel;
-    // 将手柄摇杆轴拨动时值的输出赋值给r_gator的线速度和角速度
-    vel.linear.x = joy->axes[axis_linear];
-    vel.angular.z = joy->axes[axis_angular];
-    ROS_INFO("current linear velocity:%.3lf ； current angle velocity:%.3lf", vel.linear.x, vel.angular.z);
-    pub.publish(vel);
+    auto vel = geometry_msgs::msg::Twist();
+    vel.linear.x = joy->axes[axis_linear_];
+    vel.angular.z = joy->axes[axis_angular_];
+    RCLCPP_INFO(this->get_logger(), "current linear velocity: %.3lf ; current angle velocity: %.3lf", vel.linear.x, vel.angular.z);
+    pub_->publish(vel);
 }
 
 int main(int argc, char **argv)
 {
-    // 设置编码
-    setlocale(LC_ALL, "");
-    // 初始化ROS节点
-    ros::init(argc, argv, "r_gator_teleop_node");
-    TeleopTurtle teleopTurtle;
-    ros::spin();
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<TeleopTurtle>();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
     return 0;
 }
-
