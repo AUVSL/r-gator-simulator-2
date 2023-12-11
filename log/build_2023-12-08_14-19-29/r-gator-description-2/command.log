@@ -1,4 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/r-gator-description-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description-2 -- -j12 -l12
-Invoked command in '/home/samee/ros2ws/build/r-gator-description-2' returned '0': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-description-2 -- -j12 -l12
-Invoking command in '/home/samee/ros2ws/build/r-gator-description-2': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description-2
-Invoked command in '/home/samee/ros2ws/build/r-gator-description-2' returned '1': /usr/local/bin/cmake --install /home/samee/ros2ws/build/r-gator-description-2

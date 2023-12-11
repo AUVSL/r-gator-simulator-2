@@ -1,2 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/jsk_topic_tools': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_topic_tools
-Invoked command in '/home/samee/ros2ws/build/jsk_topic_tools' returned '1': /usr/local/bin/cmake /home/samee/ros2ws/src_unclean/ros_drivers/jsk_rviz/jsk_topic_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/jsk_topic_tools

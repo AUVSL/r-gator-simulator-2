@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000150] (-) JobUnselected: {'identifier': 'r-gator-description-2'}
-[0.000333] (-) JobUnselected: {'identifier': 'r-gator-gazebo-2'}
-[0.000402] (-) JobUnselected: {'identifier': 'r-gator-gazebo-tool-2'}
-[0.000440] (-) JobUnselected: {'identifier': 'r-gator-launch-2'}
-[0.000521] (-) JobUnselected: {'identifier': 'r-gator-model-2'}
-[0.000588] (-) JobUnselected: {'identifier': 'r-gator-teleop-2'}
-[0.000666] (-) EventReactorShutdown: {}

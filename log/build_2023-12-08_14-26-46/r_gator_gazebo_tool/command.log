@@ -1,2 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/r_gator_gazebo_tool': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12
-Invoked command in '/home/samee/ros2ws/build/r_gator_gazebo_tool' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r_gator_gazebo_tool -- -j12 -l12

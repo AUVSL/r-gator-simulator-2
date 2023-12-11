@@ -1,1 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/actor_collision': /usr/local/bin/cmake /home/samee/ros2ws/src/ros_drivers/actor_collision -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/actor_collision

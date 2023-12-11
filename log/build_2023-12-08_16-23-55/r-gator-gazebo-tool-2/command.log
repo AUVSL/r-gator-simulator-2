@@ -1,4 +1,0 @@
-Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-gazebo-tool-2
-Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '0': /usr/local/bin/cmake /home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-tool-2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/samee/ros2ws/install/r-gator-gazebo-tool-2
-Invoking command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12
-Invoked command in '/home/samee/ros2ws/build/r-gator-gazebo-tool-2' returned '2': /usr/local/bin/cmake --build /home/samee/ros2ws/build/r-gator-gazebo-tool-2 -- -j12 -l12

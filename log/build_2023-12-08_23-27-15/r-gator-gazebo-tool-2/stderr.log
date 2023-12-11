@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:58 (install):
-  install TARGETS given target "cmd-vel-to-ackermann-drive" which does not
-  exist.
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1
