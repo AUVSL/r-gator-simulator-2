@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+import launch_ros.descriptions
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetLaunchConfiguration, GroupAction
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
@@ -31,7 +31,7 @@ def generate_launch_description():
             PathJoinSubstitution([
                 FindPackageShare('r-gator-description-2'),
                 'launch',
-                'r-gator-description.launch.py'
+                'r-gator-description-2.launch.py'
             ])
         ]),
         launch_arguments={'namespace': LaunchConfiguration('namespace')}.items()
@@ -60,12 +60,12 @@ def generate_launch_description():
             # Node to load and start controllers
             Node(
                 package='controller_manager',
-                executable='spawner.py',
+                executable='spawner',
                 name='controller_spawner',
                 arguments=[
                     'r_gator_joint_control_params',  # Assuming the controllers' config is converted to ROS2 format
                     '--param-file', PathJoinSubstitution([
-                        FindPackageShare('r_gator_gazebo'),
+                        FindPackageShare('r-gator-gazebo-2'),
                         'config',
                         'r_gator_joint_control_params.yaml'
                     ])
@@ -74,13 +74,13 @@ def generate_launch_description():
 
             # Node for the custom r_gator control
             Node(
-                package='r_gator_gazebo',
+                package='r-gator-gazebo-2',
                 executable='r_gator_control.py',
                 name='ackermann_controller',
                 parameters=[
                     {'cmd_timeout': LaunchConfiguration('cmd_timeout')},
                     PathJoinSubstitution([
-                        FindPackageShare('r_gator_gazebo'),
+                        FindPackageShare('r-gator-gazebo-2'),
                         'config',
                         'r_gator_ackermann_control_params.yaml'
                     ])

@@ -27,5 +27,7 @@
 
   <export>
     <architecture_independent />
+       <build_type>ament_cmake</build_type> 
+
   </export>
 </package>

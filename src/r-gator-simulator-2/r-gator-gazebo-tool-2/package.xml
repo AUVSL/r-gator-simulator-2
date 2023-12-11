@@ -31,6 +31,8 @@
   <!-- <exec_depend>rclpy</exec_depend> -->
 
   <export>
+     <build_type>ament_cmake</build_type> 
+
     <!-- Other tools can request additional information be placed here -->
   </export>
 </package>

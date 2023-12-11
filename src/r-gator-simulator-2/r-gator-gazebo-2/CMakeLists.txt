@@ -10,6 +10,17 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}/
 )
 
+install(
+  PROGRAMS
+  scripts/r_gator_control.py
+  scripts/r_gator_sensor_info.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  config
+  DESTINATION share/${PROJECT_NAME}/)
+
 # find dependencies
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
