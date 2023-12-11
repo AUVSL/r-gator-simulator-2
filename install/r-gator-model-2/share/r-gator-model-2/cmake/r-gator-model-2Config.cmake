@@ -1,1 +1,0 @@
-/home/samee/ros2ws/build/r-gator-model-2/ament_cmake_core/r-gator-model-2Config.cmake

@@ -1,1 +1,0 @@
-/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-launch-2/launch/r-gator-init.launch.py

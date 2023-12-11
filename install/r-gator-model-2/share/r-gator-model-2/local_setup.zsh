@@ -1,1 +1,0 @@
-/home/samee/ros2ws/build/r-gator-model-2/ament_cmake_environment_hooks/local_setup.zsh
