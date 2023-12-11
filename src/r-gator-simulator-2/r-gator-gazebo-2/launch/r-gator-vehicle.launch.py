@@ -29,9 +29,9 @@ def generate_launch_description():
     r_gator_description_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('r_gator_description'),
+                FindPackageShare('r-gator-description-2'),
                 'launch',
-                'r_gator_description.launch.py'
+                'r-gator-description.launch.py'
             ])
         ]),
         launch_arguments={'namespace': LaunchConfiguration('namespace')}.items()
@@ -99,9 +99,9 @@ def generate_launch_description():
             )
         ],
         # Namespace configuration
-        scoped_launch_configurations=[
-            SetLaunchConfiguration('namespace', LaunchConfiguration('namespace'))
-        ]
+        # scoped_launch_configurations=[
+        #     SetLaunchConfiguration('namespace', LaunchConfiguration('namespace'))
+        # ]
     )
 
     return LaunchDescription([

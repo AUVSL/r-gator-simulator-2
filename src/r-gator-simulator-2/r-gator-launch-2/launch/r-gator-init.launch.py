@@ -23,7 +23,7 @@ def generate_launch_description():
             PathJoinSubstitution([
                 FindPackageShare('gazebo_ros'),
                 'launch',
-                'empty_world.launch.py'
+                'gazebo.launch.py'
             ])
         ]),
         launch_arguments={
@@ -34,7 +34,7 @@ def generate_launch_description():
             'headless': LaunchConfiguration('headless'),
             'verbose': 'false',
             'world_name': PathJoinSubstitution([
-                FindPackageShare('r_gator_gazebo'),
+                FindPackageShare('r-gator-gazebo-2'),
                 'worlds',
                 LaunchConfiguration('world_name')
             ])
@@ -45,9 +45,9 @@ def generate_launch_description():
     r_gator_vehicle_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('r_gator_gazebo'),
+                FindPackageShare('r-gator-gazebo-2'),
                 'launch',
-                'r_gator_vehicle.launch.py'
+                'r-gator-vehicle.launch.py'
             ])
         ]),
         launch_arguments={
@@ -63,7 +63,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz',
         arguments=['-d', PathJoinSubstitution([
-            FindPackageShare('r_gator_launch'),
+            FindPackageShare('r-gator-launch-2'),
             'config_rviz',
             'r_gator_velodyne.rviz'
         ])],

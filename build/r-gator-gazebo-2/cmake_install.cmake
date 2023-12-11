@@ -43,6 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/r-gator-gazebo-2/" TYPE DIRECTORY FILES "/home/samee/ros2ws/src/r-gator-simulator-2/r-gator-gazebo-2/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   include("/home/samee/ros2ws/build/r-gator-gazebo-2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
