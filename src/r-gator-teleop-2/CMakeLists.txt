@@ -22,9 +22,8 @@ endif()
 
 
 add_executable(r_gator_teleop_node src/r_gator_teleop.cpp)
-install(
-  PROGRAMS
-  src/r_gator_teleop.cpp
+install(TARGETS
+  r_gator_teleop_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

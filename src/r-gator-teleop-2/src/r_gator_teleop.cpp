@@ -8,14 +8,15 @@ public:
     TeleopTurtle();
 
 private:
-    void joyCallback(const sensor_msgs::msg::Joy::SharedPtr joy);
+    void joy_callback(const sensor_msgs::msg::Joy::SharedPtr joy);
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_;
     int axis_linear_, axis_angular_;
 };
 
-TeleopTurtle::TeleopTurtle() : Node("teleop_turtle")
+TeleopTurtle::TeleopTurtle() : Node("r_gator_teleop_node")
 {
+    // Read parameters from parameter server
     this->declare_parameter<int>("axis_linear", 1);
     this->declare_parameter<int>("axis_angular", 2);
     this->get_parameter("axis_linear", axis_linear_);
@@ -23,10 +24,10 @@ TeleopTurtle::TeleopTurtle() : Node("teleop_turtle")
 
     pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
     sub_ = this->create_subscription<sensor_msgs::msg::Joy>(
-        "joy", 10, std::bind(&TeleopTurtle::joyCallback, this, std::placeholders::_1));
+        "joy", 10, std::bind(&TeleopTurtle::joy_callback, this, std::placeholders::_1));
 }
 
-void TeleopTurtle::joyCallback(const sensor_msgs::msg::Joy::SharedPtr joy)
+void TeleopTurtle::joy_callback(const sensor_msgs::msg::Joy::SharedPtr joy)
 {
     auto vel = geometry_msgs::msg::Twist();
     vel.linear.x = joy->axes[axis_linear_];
