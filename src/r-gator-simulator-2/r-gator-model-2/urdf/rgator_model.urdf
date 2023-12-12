@@ -4,6 +4,7 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
   name="rgator_model">
+  <link name="world" />
   <link
     name="base_link">
     <inertial>
@@ -26,7 +27,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/base_link.STL" />
+          filename="package://r-gator-model-2/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +41,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/base_link.STL" />
+          filename="package://r-gator-model-2/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +67,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/front_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/front_left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +81,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/front_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/front_left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -119,7 +120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/front_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/front_right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -133,7 +134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/front_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/front_right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -172,7 +173,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/middle_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/middle_left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -186,7 +187,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/middle_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/middle_left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -225,7 +226,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/middle_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/middle_right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -239,7 +240,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/middle_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/middle_right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -278,7 +279,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/rear_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/rear_left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -292,7 +293,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/rear_left_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/rear_left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -331,7 +332,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/rear_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/rear_right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -345,7 +346,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rgator_model/meshes/rear_right_wheel_link.STL" />
+          filename="package://r-gator-model-2/meshes/rear_right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -381,7 +382,9 @@
       <geometry>
         <box size="0.05 0.05 0.05"/>
       </geometry>
-      <material name="red"/>
+      <material name="red">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
     </visual>
     <inertial>
       <mass value="1e-5" />
@@ -406,7 +409,9 @@
       <geometry>
         <box size="0.1 0.1 0.1"/>
       </geometry>
-      <material name="red"/>
+      <material name="red">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
     </visual>
 
     <inertial>
@@ -439,7 +444,9 @@
       <geometry>
         <box size="0.1 0.1 0.1"/>
       </geometry>
-      <material name="red"/>
+      <material name="red">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -456,6 +463,18 @@
     <origin xyz="-0.246 0 0.05" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="GPS_link"/>
+  </joint>
+
+  <joint
+    name="world_link"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="world" />
+    <child
+      link="base_link" />
   </joint>
 
 </robot>

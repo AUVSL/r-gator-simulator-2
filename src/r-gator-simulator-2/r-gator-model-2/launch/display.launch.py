@@ -14,7 +14,7 @@ def generate_launch_description():
         FindPackageShare('r-gator-model-2'), 'urdf', 'rgator_model.urdf'
     ])
     rgator_rviz_config_path = PathJoinSubstitution([
-        FindPackageShare('r-gator-launch-2'), 'config_rviz', 'r-gator-velodyne.rviz'
+        FindPackageShare('r-gator-launch-2'), 'config_rviz', 'r_gator_velodyne.rviz'
     ])
 
     return LaunchDescription([
