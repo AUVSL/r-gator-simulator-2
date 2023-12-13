@@ -70,7 +70,7 @@ def generate_launch_description():
         arguments=['-d', PathJoinSubstitution([
             FindPackageShare('r-gator-launch-2'),
             'config_rviz',
-            'r-gator-velodyne.rviz'
+            'r_gator_velodyne.rviz'
         ])],
     )
 
