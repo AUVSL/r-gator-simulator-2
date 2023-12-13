@@ -63,6 +63,7 @@ def generate_launch_description():
         output='screen'
     )
 
+    """
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -73,6 +74,7 @@ def generate_launch_description():
             'r_gator_velodyne.rviz'
         ])],
     )
+    """
 
     # Environment variable to set use_sim_time for all nodes launched in this file
     set_use_sim_time = SetEnvironmentVariable('use_sim_time', LaunchConfiguration('use_sim_time'))
@@ -91,6 +93,6 @@ def generate_launch_description():
         teleop_node,
         cmd_to_ackermann_node,
         r_gator_teleop_node,
-        rviz_node,
+        #rviz_node,
         set_use_sim_time
     ])
