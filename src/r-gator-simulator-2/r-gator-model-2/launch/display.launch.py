@@ -11,7 +11,7 @@ def generate_launch_description():
     model_arg = DeclareLaunchArgument('model', default_value='default_model')
     model = LaunchConfiguration('model')
     rgator_model_path = PathJoinSubstitution([
-        FindPackageShare('r-gator-model-2'), 'urdf', 'rgator_model.urdf'
+        FindPackageShare('r-gator-model-2'), 'urdf', 'rgator_model.urdf' # change to rgator_model_gz.urdf to display in gazebo
     ])
     rgator_rviz_config_path = PathJoinSubstitution([
         FindPackageShare('r-gator-launch-2'), 'config_rviz', 'r_gator_velodyne.rviz'
