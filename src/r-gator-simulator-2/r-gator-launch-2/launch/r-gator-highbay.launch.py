@@ -19,6 +19,16 @@ def generate_launch_description():
     vehicle_y_arg = DeclareLaunchArgument('vehicle_y', default_value='-21')
     vehicle_yaw_arg = DeclareLaunchArgument('vehicle_yaw', default_value='3.14')
 
+    description_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            PathJoinSubstitution([
+                FindPackageShare('r-gator-model-2'),
+                'launch',
+                'display.launch.py'
+            ])
+        ])
+    )
+
     # Convert include tags to IncludeLaunchDescription
     gazebo_ros_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
@@ -63,6 +73,7 @@ def generate_launch_description():
         output='screen'
     )
 
+    """
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -70,8 +81,21 @@ def generate_launch_description():
         arguments=['-d', PathJoinSubstitution([
             FindPackageShare('r-gator-launch-2'),
             'config_rviz',
-            'r-gator-velodyne.rviz'
+            'r_gator_velodyne.rviz'
         ])],
+    )
+    """
+
+    spawn_entity_cmd = Node(
+        package='gazebo_ros', 
+        executable='spawn_entity.py',
+        arguments=['-entity', 'rgator_model', 
+                    '-topic', 'robot_description',
+                        '-x', '0.0',
+                        '-y', '0.0',  # todo: replace with args
+                        '-z', '0.0',
+                        '-Y', '0.0'],
+                        output='screen'
     )
 
     # Environment variable to set use_sim_time for all nodes launched in this file
@@ -87,10 +111,12 @@ def generate_launch_description():
         vehicle_x_arg,
         vehicle_y_arg,
         vehicle_yaw_arg,
+        description_launch,
         gazebo_ros_launch,
         teleop_node,
         cmd_to_ackermann_node,
         r_gator_teleop_node,
-        rviz_node,
-        set_use_sim_time
+        #rviz_node,
+        set_use_sim_time,
+        spawn_entity_cmd
     ])
