@@ -26,6 +26,7 @@ def generate_launch_description():
     pitch_arg = DeclareLaunchArgument('pitch', default_value='0.0')
 
     # Include the r_gator_description launch file
+        # Include the r_gator_description launch file
     r_gator_description_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -37,72 +38,100 @@ def generate_launch_description():
         launch_arguments={'namespace': LaunchConfiguration('namespace')}.items()
     )
 
-    # Group to namespace the nodes
-    namespaced_group = GroupAction(
-        actions=[
-            # Node to spawn the model in Gazebo
-            Node(
-                package='gazebo_ros',
-                executable='spawn_entity.py',
-                name='spawn_model',
-                arguments=[
-                    '-entity', 'r_gator',
-                    '-topic', 'robot_description',
-                    '-x', LaunchConfiguration('x'),
-                    '-y', LaunchConfiguration('y'),
-                    '-z', LaunchConfiguration('z'),
-                    '-Y', LaunchConfiguration('yaw'),
-                    '-P', LaunchConfiguration('pitch'),
-                    '-R', LaunchConfiguration('roll')
-                ]
-            ),
-
-            # Node to load and start controllers
-            Node(
-                package='controller_manager',
-                executable='spawner',
-                name='controller_spawner',
-                arguments=[
-                    'r_gator_joint_control_params',  # Assuming the controllers' config is converted to ROS2 format
-                    '--param-file', PathJoinSubstitution([
-                        FindPackageShare('r-gator-gazebo-2'),
-                        'config',
-                        'r_gator_joint_control_params.yaml'
-                    ])
-                ]
-            ),
-
-            # Node for the custom r_gator control
-            Node(
-                package='r-gator-gazebo-2',
-                executable='r_gator_control.py',
-                name='ackermann_controller',
-                parameters=[
-                    {'cmd_timeout': LaunchConfiguration('cmd_timeout')},
-                    PathJoinSubstitution([
-                        FindPackageShare('r-gator-gazebo-2'),
-                        'config',
-                        'r_gator_ackermann_control_params.yaml'
-                    ])
-                ]
-            ),
-
-            # Node for publishing joint states
-            Node(
-                package='joint_state_publisher',
-                executable='joint_state_publisher',
-                name='joint_state_publisher',
-                parameters=[
-                    {'rate': 10},  # The rate is now set as a parameter
-                    {'use_gui': False}
-                ]
-            )
-        ],
-        # Namespace configuration
-        # scoped_launch_configurations=[
-        #     SetLaunchConfiguration('namespace', LaunchConfiguration('namespace'))
-        # ]
+    # Node to spawn the model in Gazebo
+    spawn_model_node = Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        name='spawn_model',
+        arguments=[
+            '-entity', 'r_gator',
+            '-topic', 'robot_description',
+            '-x', LaunchConfiguration('x'),
+            '-y', LaunchConfiguration('y'),
+            '-z', LaunchConfiguration('z'),
+            '-Y', LaunchConfiguration('yaw'),
+            '-P', LaunchConfiguration('pitch'),
+            '-R', LaunchConfiguration('roll')
+        ]
     )
+    broadcaster =Node(
+            package="controller_manager",
+            executable="spawner",   
+            arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+            ),
+    controller = Node(
+           package="controller_manager",
+           executable="spawner",    
+            arguments=["joint_trajectory_controller", "-c", "/controller_manager"],
+            )
+    # Node to load and start controllers
+    controller_spawner_node = Node(
+        package='controller_manager',
+        executable='spawner',
+        name='controller_spawner',
+        arguments=[
+            'r_gator_joint_control_params',  # Assuming the controllers' config is converted to ROS2 format
+            '--param-file', PathJoinSubstitution([
+                FindPackageShare('r-gator-gazebo-2'),
+                'config',
+                'r_gator_joint_control_params.yaml'
+            ])
+        ]
+    )
+
+    # Node for the custom r_gator control
+    r_gator_control_node = Node(
+        package='r-gator-gazebo-2',
+        executable='r_gator_control.py',
+        parameters=[
+            {'cmd_timeout': LaunchConfiguration('cmd_timeout')},
+            PathJoinSubstitution([
+                FindPackageShare('r-gator-gazebo-2'),
+                'config',
+                'r_gator_ackermann_control_params.yaml'
+            ])
+        ]
+    )
+
+    # Node for publishing joint states
+    joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher',
+        parameters=[
+            {'rate': 10},  # The rate is now set as a parameter
+            {'use_gui': False}
+        ]
+    )
+    controllers = Node(
+    package="controller_manager",
+    executable="ros2_control_node",
+    parameters=[]
+)
+    # Construct and return the LaunchDescription
+    return LaunchDescription([
+        namespace_arg,
+        cmd_timeout_arg,
+        paused_arg,
+        use_sim_time_arg,
+        gui_arg,
+        headless_arg,
+        debug_arg,
+        verbose_arg,
+        controller_spawner_node,
+        controllers,
+        x_arg,
+        y_arg,
+        z_arg,
+        yaw_arg,
+        roll_arg,
+        pitch_arg,
+        r_gator_description_launch,
+        spawn_model_node,
+        r_gator_control_node,
+        joint_state_publisher_node
+    ])
+
 
     return LaunchDescription([
         namespace_arg,

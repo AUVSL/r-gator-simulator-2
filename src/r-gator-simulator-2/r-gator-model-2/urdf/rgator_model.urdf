@@ -3,8 +3,7 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="rgator_model">
-  <link name="world" />
+  name="r-gator-model-2">
   <link
     name="base_link">
     <inertial>
@@ -30,7 +29,7 @@
           filename="package://r-gator-model-2/meshes/base_link.STL" />
       </geometry>
       <material
-        name="red">
+        name="">
         <color
           rgba="0.1451 0.24706 0 1" />
       </material>
@@ -70,7 +69,10 @@
           filename="package://r-gator-model-2/meshes/front_left_wheel_link.STL" />
       </geometry>
       <material
-        name="red" />
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
     </visual>
     <collision>
       <origin
@@ -120,7 +122,10 @@
           filename="package://r-gator-model-2/meshes/front_right_wheel_link.STL" />
       </geometry>
       <material
-        name="red" />
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
     </visual>
     <collision>
       <origin
@@ -170,7 +175,10 @@
           filename="package://r-gator-model-2/meshes/middle_left_wheel_link.STL" />
       </geometry>
       <material
-        name="red" />
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
     </visual>
     <collision>
       <origin
@@ -220,7 +228,10 @@
           filename="package://r-gator-model-2/meshes/middle_right_wheel_link.STL" />
       </geometry>
       <material
-        name="red" />
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
     </visual>
     <collision>
       <origin
@@ -270,7 +281,7 @@
           filename="package://r-gator-model-2/meshes/rear_left_wheel_link.STL" />
       </geometry>
       <material
-        name="red">
+        name="">
         <color
           rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
       </material>
@@ -323,7 +334,10 @@
           filename="package://r-gator-model-2/meshes/rear_right_wheel_link.STL" />
       </geometry>
       <material
-        name="red" />
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
     </visual>
     <collision>
       <origin
@@ -367,7 +381,7 @@
       <geometry>
         <box size="0.05 0.05 0.05"/>
       </geometry>
-      <material name="red" />
+      <material name="red"/>
     </visual>
     <inertial>
       <mass value="1e-5" />
@@ -376,84 +390,5 @@
     </inertial>
   </link>
 
-
-  <!-- IMU -->
-  <link name="IMU_link">
-
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.1 0.1 0.1"/>
-      </geometry>
-    </collision>
-
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.1 0.1 0.1"/>
-      </geometry>
-      <material name="red" />
-    </visual>
-
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1"/>
-      <inertia
-        ixx="1.0" ixy="0.0" ixz="0.0"
-        iyy="1.0" iyz="0.0"
-        izz="1.0"/>
-    </inertial>
-
-  </link>
-
-  <joint name="IMU_joint" type="fixed">
-    <origin xyz="-0.246 0 0.05" rpy="0 0 -1.5708"/>
-    <parent link="base_link"/>
-    <child link="IMU_link"/>
-  </joint>
-
-  <!-- GPS -->
-  <link name="GPS_link">
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.1 0.1 0.1"/>
-      </geometry>
-    </collision>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.1 0.1 0.1"/>
-      </geometry>
-      <material name="red" />
-    </visual>
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1"/>
-      <inertia
-        ixx="1.0" ixy="0.0" ixz="0.0"
-        iyy="1.0" iyz="0.0"
-        izz="1.0"/>
-    </inertial>
-  </link>
-
-
-  <joint name="GPS_joint" type="fixed">
-    <origin xyz="-0.246 0 0.05" rpy="0 0 0"/>
-    <parent link="base_link"/>
-    <child link="GPS_link"/>
-  </joint>
-
-  <joint
-    name="world_link"
-    type="fixed">
-    <origin
-      xyz="0 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="world" />
-    <child
-      link="base_link" />
-  </joint>
 
 </robot>

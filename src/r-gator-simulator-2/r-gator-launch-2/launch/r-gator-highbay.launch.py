@@ -6,8 +6,17 @@ from launch.substitutions import LaunchConfiguration, Command, PathJoinSubstitut
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+import os
+
+from launch.substitutions import PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
+    # Define the path to the YAML file using PathJoinSubstitution
+    config_file_path = PathJoinSubstitution([
+        FindPackageShare('r-gator-gazebo-2'), 'config', 'r_gator_ackermann_control_params.yaml'
+    ])
+  
     # Launch arguments
     paused_arg = DeclareLaunchArgument('paused', default_value='false')
     use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value='true')
@@ -19,6 +28,7 @@ def generate_launch_description():
     vehicle_y_arg = DeclareLaunchArgument('vehicle_y', default_value='-21')
     vehicle_yaw_arg = DeclareLaunchArgument('vehicle_yaw', default_value='3.14')
 
+
     description_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -29,7 +39,6 @@ def generate_launch_description():
         ])
     )
 
-    # Convert include tags to IncludeLaunchDescription
     gazebo_ros_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -51,14 +60,6 @@ def generate_launch_description():
         }.items()
     )
 
-    # Nodes definition
-    teleop_node = Node(
-        package='teleop_twist_keyboard',
-        executable='teleop_twist_keyboard',
-        name='teleop',
-        output='screen'
-    )
-
     cmd_to_ackermann_node = Node(
         package='r-gator-gazebo-tool-2',
         executable='cmd-vel-to-ackermann-drive.py',
@@ -66,38 +67,30 @@ def generate_launch_description():
         output='screen'
     )
 
-    r_gator_teleop_node = Node(
-        package='r-gator-teleop-2',
-        executable='r_gator_teleop_node',
-        name='r_gator_teleop_node',
-        output='screen'
+    # Define the GEM Ackermann Controller node
+    gem_ackermann_controller_node = Node(
+        package='r-gator-gazebo-2',
+        executable='r_gator_control.py',
+        name='gem_controller',
+        output='screen',
+        parameters=[config_file_path]
     )
-
-    """
-    rviz_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz',
-        arguments=['-d', PathJoinSubstitution([
-            FindPackageShare('r-gator-launch-2'),
-            'config_rviz',
-            'r_gator_velodyne.rviz'
-        ])],
-    )
-    """
-
     spawn_entity_cmd = Node(
         package='gazebo_ros', 
         executable='spawn_entity.py',
         arguments=['-entity', 'rgator_model', 
                     '-topic', 'robot_description',
-                        '-x', '0.0',
-                        '-y', '0.0',  # todo: replace with args
-                        '-z', '0.0',
-                        '-Y', '0.0'],
-                        output='screen'
+                    '-x', LaunchConfiguration('vehicle_x'),
+                    '-y', LaunchConfiguration('vehicle_y'),  
+                    '-z', '-5.0',
+                    '-Y', LaunchConfiguration('vehicle_yaw')],
+        output='screen'
     )
-
+    controllers = Node(
+    package="controller_manager",
+    executable="ros2_control_node",
+    parameters=[]
+)
     # Environment variable to set use_sim_time for all nodes launched in this file
     set_use_sim_time = SetEnvironmentVariable('use_sim_time', LaunchConfiguration('use_sim_time'))
 
@@ -113,10 +106,10 @@ def generate_launch_description():
         vehicle_yaw_arg,
         description_launch,
         gazebo_ros_launch,
-        teleop_node,
+        controllers,
         cmd_to_ackermann_node,
-        r_gator_teleop_node,
-        #rviz_node,
         set_use_sim_time,
-        spawn_entity_cmd
+        spawn_entity_cmd,
+        gem_ackermann_controller_node
+          # Ensure this is at the end to load parameters last
     ])

@@ -10,12 +10,12 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
     # Define the path to the gazebo_ros package launch files
     gazebo_ros_launch_path = PathJoinSubstitution([
-        FindPackageShare('gazebo_ros'), 'launch', 'empty_world.launch.py'
+        FindPackageShare('gazebo_ros'), 'launch', 'gazebo.launch.py'
     ])
     
     # Path to the robot's URDF file
     rgator_model_urdf_path = PathJoinSubstitution([
-        FindPackageShare('rgator_model'), 'urdf', 'rgator_model.urdf'
+        FindPackageShare('r-gator-model-2'), 'urdf', 'rgator_model.urdf'
     ])
 
     # Define the launch configuration variables
