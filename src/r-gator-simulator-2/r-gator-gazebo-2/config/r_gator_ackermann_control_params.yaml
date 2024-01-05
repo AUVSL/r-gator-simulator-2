@@ -1,5 +1,7 @@
 r_gator_ackermann_controller:
   ros__parameters:
+  
+    type: "ackermann_steering_controller/AckermannSteeringController"
     left_front_wheel:
       steering_link_name: front_left_wheel_link
       steering_controller_name: left_steering_ctrlr
@@ -13,11 +15,11 @@ r_gator_ackermann_controller:
       diameter: 0.59 # tire diameter
 
     left_rear_wheel:
-      link_name: rear_left_wheel_link
+      steering_link_name: rear_left_wheel_link  # Changed from link_name to steering_link_name
       axle_controller_name: left_rear_wheel_ctrlr
-      diameter: 0.59 # tire diameter
+      diameter: 0.59
 
     right_rear_wheel:
-      link_name: rear_right_wheel_link
+      steering_link_name: rear_right_wheel_link  # Changed from link_name to steering_link_name
       axle_controller_name: right_rear_wheel_ctrlr
-      diameter: 0.59 # tire diameter
+      diameter: 0.59

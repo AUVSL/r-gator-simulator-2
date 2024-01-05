@@ -69,11 +69,11 @@ def generate_launch_description():
 
     # Define the GEM Ackermann Controller node
     gem_ackermann_controller_node = Node(
-        package='r-gator-gazebo-2',
-        executable='r_gator_control.py',
+        package='r-gator-gazebo-2',  # Ensure this is the correct package
+        executable='r_gator_control.py',  # Ensure this is the correct executable
         name='gem_controller',
         output='screen',
-        parameters=[config_file_path]
+        parameters=[config_file_path]  # Ensure the YAML configuration is correct
     )
     spawn_entity_cmd = Node(
         package='gazebo_ros', 
@@ -87,10 +87,10 @@ def generate_launch_description():
         output='screen'
     )
     controllers = Node(
-    package="controller_manager",
-    executable="ros2_control_node",
-    parameters=[]
-)
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[config_file_path]  # Load the controller configurations
+    )
     # Environment variable to set use_sim_time for all nodes launched in this file
     set_use_sim_time = SetEnvironmentVariable('use_sim_time', LaunchConfiguration('use_sim_time'))
 
