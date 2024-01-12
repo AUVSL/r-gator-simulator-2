@@ -47,14 +47,14 @@ class CmdVelToAckermannDrive(Node):
 
         if self.message_type == 'ackermann_drive':
             msg = AckermannDrive()
-            msg.steering_angle = steering
-            msg.speed = v
+            msg.steering_angle = float(steering)
+            msg.speed = float(v)
         else:
             msg = AckermannDriveStamped()
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.header.frame_id = self.frame_id
-            msg.drive.steering_angle = steering
-            msg.drive.speed = v
+            msg.drive.steering_angle = float(steering)
+            msg.drive.speed = float(v)
 
         self.publisher.publish(msg)
 
