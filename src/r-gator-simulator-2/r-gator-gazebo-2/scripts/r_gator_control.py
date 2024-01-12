@@ -54,8 +54,8 @@ class AckermannSteerController(Node):
         self.desired_steer_ang = msg.steering_angle
 
         # Update desired speed and steering angle from incoming messages
-        # self.desired_speed = msg.speed
-        # self.desired_steer_ang = msg.steering_angle
+        self.desired_speed = msg.speed
+        self.desired_steer_ang = msg.steering_angle
         rclpy.logging.get_logger('ackermann_steer_controller').info('Received AckermannDrive message: speed = %f, steering_angle = %f' % (msg.speed, msg.steering_angle))
 
     def control_update(self):

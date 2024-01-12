@@ -82,7 +82,7 @@ def generate_launch_description():
                     '-topic', 'robot_description',
                     '-x', LaunchConfiguration('vehicle_x'),
                     '-y', LaunchConfiguration('vehicle_y'),  
-                    '-z', '-5.0',
+                    '-z', '0.5',
                     '-Y', LaunchConfiguration('vehicle_yaw')],
         output='screen'
     )
